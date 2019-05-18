@@ -2,9 +2,6 @@
 
 > Bucharest, Romania | alexneamtu@gmail.com
 
-![Alexandru Neamtu](https://avatars1.githubusercontent.com/u/4946482?s=200&v=4) 
-
-
 ## Profile
 > I am a highly experienced `Software Developer` with over 15 years experience with a proven track record of using good engineering practice to produce software for new, innovative and profitable products and solutions.
 
