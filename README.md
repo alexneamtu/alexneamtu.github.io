@@ -1,4 +1,4 @@
-# Alexandru Neamtu
+## Contact
 
 > Bucharest, Romania | alexneamtu@gmail.com
 
