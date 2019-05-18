@@ -109,7 +109,7 @@
 
 > Development and maintenance for presentation and e-commerce websites
 
-`Technologies: perl, javascript, oracle` 
+`Technologies: php, javascript, mysql` 
 
 
 ## Education
