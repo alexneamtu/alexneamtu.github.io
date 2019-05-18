@@ -1,37 +1,132 @@
-## Welcome to GitHub Pages
+# Alexandru Neamtu
 
-You can use the [editor on GitHub](https://github.com/alexneamtu/alexneamtu-resume/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+> Bucharest, Romania | alexneamtu@gmail.com
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Alexandru Neamtu](https://avatars1.githubusercontent.com/u/4946482?s=200&v=4) 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Profile
+> I am a highly experienced `Software Developer` with over 15 years experience with a proven track record of using good engineering practice to produce software for new, innovative and profitable products and solutions.
 
-```markdown
-Syntax highlighted code block
+## Experience
 
-# Header 1
-## Header 2
-### Header 3
+**Senior Backend Developer @ [OWNZONES Entertainment Technologies](https://ownzones.com/)** 
 
-- Bulleted
-- List
+`December 2017 - Present`
 
-1. Numbered
-2. List
+> Design and development for the [Discover Project](https://ownzones.com/products-services/discover/) (a media delivery solution that helps content owners leverage their content libraries)
 
-**Bold** and _Italic_ and `Code` text
+`Technologies: node.js, typescript, graphQl, postgresql, elasticsearch, redis, aws`
+ 
+---
 
-[Link](url) and ![Image](src)
-```
+**Freelance**
+ 
+`April 2012 - Present`
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+> Development and maintenance for different projects
 
-### Jekyll Themes
+`Technologies: php, wordpress, drupal, mysql, aws` 
+ 
+---
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alexneamtu/alexneamtu-resume/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**Lead Software Designer @ [Endava](https://www.endava.com/)**
 
-### Support or Contact
+`June 2017 – December 2017`
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+> Design and development for the paywall of multiple US publications. 
+
+> High-level decision maker to determine everything from design choices to technical standards, such as platforms and coding standards. 
+
+`Technologies: node.js, golang, angular.js, mysql`
+
+---
+
+**Technical Team Lead @ Endava**
+
+`August 2015 – June 2017`
+
+> Design and development for the paywall of multiple US publications.
+
+`Technologies: node.js, golang, angular.js, mysql` 
+
+> Development and maintenance for a global e-commerce solution.
+
+`Technologies: perl, jQuery, oracle`
+
+---
+
+**Software Developer @ [Coinzone](http://coinzone.com)**
+
+`May 2014 – August 2015`
+
+> Development and maintenance for a bitcoin payment gateway and bitcoin wallet.
+
+`Technologies: php, symfony2, angular.js, jQuery, phonegap, mysql, bitcoin, blockchain` 
+
+---
+
+**Software Developer @ [Pionix Marketing Solutions](https://www.pionix.ro/)**
+
+`May 2013 – May 2014`
+
+> Integration and maintenance of mobile detection and mobile payment solutions.
+
+`Technologies: php, wordpress, node.js, jQuery, ` 
+
+---
+
+**Automation Engineer @ [Axway](https://www.axway.com)**
+
+`April 2011 – April 2012`
+
+> Development and maintenance for the automation testing framework of the company's B2B enterprise solutions
+
+`Technologies: perl, java` 
+
+---
+
+**CA Consultant @ [Stefanini Techteam](https://stefanini.com)**
+
+`February 2010 – May 2011`
+
+> Development and maintenance for the ticketing system used by the company
+
+`Technologies: java, javascript, sql server` 
+
+---
+
+**Software Developer @ [Techteam Akela](https://stefanini.com)**
+
+`May 2007 – February 2010`
+
+> Development and maintenance for the in-house ticketing system used by the company
+
+`Technologies: perl, javascript, oracle` 
+
+---
+
+**Software Developer @ [Ascensys Soft](http://www.ascensys.ro/)**
+
+`Januaury 2004 – May 2007`
+
+> Development and maintenance for presentation and e-commerce websites
+
+`Technologies: perl, javascript, oracle` 
+
+
+## Education
+
+**Bachelor in Computer Science @ ["Politehnica" University of Bucharest](https://upb.ro)**     
+
+`2002 - 2007`
+
+> The Structure and the Architecture of Computer Systems specialization
+
+---
+
+**High School @ [A.T. Laurian National College](https://laurian.ro/)**
+
+`1998 - 2002`
+
+> Informatics specialization
