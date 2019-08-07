@@ -22,6 +22,7 @@
 `April 2012 - Present`
 
 > Development and maintenance for different projects, such as:
+
 [Apr 2019 – Present] Liquid Investigations (https://liquidinvestigations.github.io/) - a secure collaboration server for investigative journalism projects. 
 Technology: Python, Django, PostgreSQL
 Role: Senior Developer
