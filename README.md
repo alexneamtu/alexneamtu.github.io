@@ -23,11 +23,15 @@
 
 > Development and maintenance for different projects, such as:
 
-[Apr 2019 – Present] Liquid Investigations (https://liquidinvestigations.github.io/) - a secure collaboration server for investigative journalism projects. 
+> Apr 2019 – Present 
+>
+> Liquid Investigations (https://liquidinvestigations.github.io/) - a secure collaboration server for investigative journalism projects. 
 Technology: Python, Django, PostgreSQL
 Role: Senior Developer
 
-[Apr 2019 – Present] Hoover toolset (https://hoover.github.io/) - a set of tools for searching in large collections of documents
+> Apr 2019 - Present
+>
+> Hoover toolset (https://hoover.github.io/) - a set of tools for searching in large collections of documents
 Technology: Python, Django, PostgreSQL, ElasticSearch
 Role: Senior Developer
 
