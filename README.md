@@ -17,7 +17,7 @@
  
 ---
 
-**Freelance**
+**Freelance Software Developer**
  
 `April 2012 - Present`
 
@@ -25,17 +25,17 @@
 
 > Apr 2019 – Present 
 >
-> Liquid Investigations (https://liquidinvestigations.github.io/) - a secure collaboration server for investigative journalism projects. 
+> [Liquid Investigations](https://liquidinvestigations.github.io/) - a secure collaboration server for investigative journalism projects. 
 Technology: Python, Django, PostgreSQL
 Role: Senior Developer
 
 > Apr 2019 - Present
 >
-> Hoover toolset (https://hoover.github.io/) - a set of tools for searching in large collections of documents
+> [Hoover toolset](https://hoover.github.io/) - a set of tools for searching in large collections of documents
 Technology: Python, Django, PostgreSQL, ElasticSearch
 Role: Senior Developer
 
-`Technologies: python, django, elasticsearch, php, wordpress, drupal, mysql, aws` 
+`Technologies: python, django, php, wordpress, drupal, mysql, postgresql, elasticsearch, aws` 
  
 ---
 
