@@ -7,9 +7,17 @@
 
 ## Experience
 
+**Senior Software Engineer @ [Eau de Web](https://www.eaudeweb.ro/)** 
+
+`August 2019 - Present`
+
+`Technologies: python, django`
+ 
+---
+
 **Senior Backend Developer @ [OWNZONES Entertainment Technologies](https://ownzones.com/)** 
 
-`December 2017 - Present`
+`December 2017 - August 2019`
 
 > Design and development for the [Discover Project](https://ownzones.com/products-services/discover/) (a media delivery solution that helps content owners leverage their content libraries)
 
