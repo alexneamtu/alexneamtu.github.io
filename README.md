@@ -11,7 +11,9 @@
 
 `August 2019 - Present`
 
-`Technologies: python, django`
+> Development and maintenance for different projects. 
+
+`Technologies: python, django, elasticsearch`
  
 ---
 
