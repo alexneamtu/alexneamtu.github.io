@@ -9,25 +9,29 @@
 
 **Senior Software Engineer @ [Eau de Web](https://www.eaudeweb.ro/)** 
 
-`August 2019 - Present`
+`April 2019 - Present`
 
-> Oct 2019 - present
+> October 2019 - present
 >
 > [School Meals](https://www.wfp.org/school-meals) manages the attendance and the food delivery and consumption in the World Food Programme projects
-Technologies: Python, Django, PostgreSQL
-Role: Senior Developer
+>
+> Technologies: Python, Django, PostgreSQL
+>
+> Role: Senior Developer
 
-> May 2019 - present 
+> August 2019 - present 
 >
 > FarmHub analyzes satellite imagery of farms, helping farmers to reduce scouting effort by as much as 90%. It turns imagery into a prescription map for fertilizer and crop protection application and optimize farm production and view analytics on farm performance. 
 Technologies: Python, Django, PostgreSQL, PostGIS, Vue.js, Leaflet.js
 Role: Senior Developer
 
-> Apr 2019 – Present 
+> August 2019 – Present 
 >
 > [Scratch](https://github.com/eaudeweb/scratch) - a scraper for the [United Nations](https://www.ungm.org) and [TED](https://ted.europa.eu) notices
-Technologies: python, django, postgresql, elasticsearch
-Role: Senior Developer
+>
+> Technologies: python, django, postgresql, elasticsearch
+>
+> Role: Senior Developer
 
 `Technologies: python, django, elasticsearch, vue.js, postgresql`
 
@@ -53,14 +57,18 @@ Role: Senior Developer
 > Apr 2019 – Present 
 >
 > [Liquid Investigations](https://liquidinvestigations.github.io/) - a secure collaboration server for investigative journalism projects. 
-Technology: Python, Django, PostgreSQL
-Role: Senior Developer
+>
+> Technology: Python, Django, PostgreSQL
+>
+> Role: Senior Developer
 
 > Apr 2019 - Present
 >
 > [Hoover toolset](https://hoover.github.io/) - a set of tools for searching in large collections of documents
-Technology: Python, Django, PostgreSQL, ElasticSearch
-Role: Senior Developer
+>
+> Technology: Python, Django, PostgreSQL, ElasticSearch
+>
+> Role: Senior Developer
 
 `Technologies: python, django, php, wordpress, drupal, mysql, postgresql, elasticsearch, aws` 
  
@@ -82,13 +90,21 @@ Role: Senior Developer
 
 `August 2015 – June 2017`
 
+> June 2016 - June 2017 
+>
 > Design and development for the paywall of multiple US publications.
+>
+> Technologies: node.js, golang, angular.js, mysql
+>
+> Role: Senior Developer
 
-`Technologies: node.js, golang, angular.js, mysql` 
-
+> August 2015 - June 2016 
+>
 > Development and maintenance for a global e-commerce solution.
-
-`Technologies: perl, jQuery, oracle`
+>
+> Technologies: perl, jQuery, oracle
+>
+> Role: Senior Developer
 
 ---
 
