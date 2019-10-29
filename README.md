@@ -29,6 +29,8 @@ Role: Senior Developer
 Technologies: python, django, postgresql, elasticsearch
 Role: Senior Developer
 
+`Technologies: python, django, elasticsearch, vue.js, postgresql`
+
  
 ---
 
