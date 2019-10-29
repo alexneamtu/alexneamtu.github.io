@@ -106,6 +106,8 @@ Role: Senior Developer
 >
 > Role: Senior Developer
 
+`Technologies: perl, jQuery, oracle, node.js, golang, angular.js, mysql`
+
 ---
 
 **Software Developer @ [Coinzone](http://coinzone.com)**
