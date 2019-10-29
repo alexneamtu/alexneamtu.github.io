@@ -11,9 +11,24 @@
 
 `August 2019 - Present`
 
-> Development and maintenance for different projects. 
+> Oct 2019 - present
+>
+> [School Meals](https://www.wfp.org/school-meals) manages the attendance and the food delivery and consumption in the World Food Programme projects
+Technologies: Python, Django, PostgreSQL
+Role: Senior Developer
 
-`Technologies: python, django, elasticsearch`
+> May 2019 - present 
+>
+> FarmHub analyzes satellite imagery of farms, helping farmers to reduce scouting effort by as much as 90%. It turns imagery into a prescription map for fertilizer and crop protection application and optimize farm production and view analytics on farm performance. 
+Technologies: Python, Django, PostgreSQL, PostGIS, Vue.js, Leaflet.js
+Role: Senior Developer
+
+> Apr 2019 – Present 
+>
+> [Scratch](https://github.com/eaudeweb/scratch) - a scraper for the [United Nations](https://www.ungm.org) and [TED](https://ted.europa.eu) notices
+Technologies: python, django, postgresql, elasticsearch
+Role: Senior Developer
+
  
 ---
 
