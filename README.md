@@ -35,6 +35,9 @@ Role: Senior Developer
 
 `Technologies: python, django, elasticsearch, vue.js, postgresql`
 
+> Oct 2019 - Jan 2020
+> 
+> Held the Django Web Application course for the senior year at the University of Bucharest
  
 ---
 
