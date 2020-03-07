@@ -57,6 +57,14 @@ Role: Senior Developer
 
 > Development and maintenance for different projects, such as:
 
+> Mar 2020 - Present
+>
+> [Risc seismic Bucuresti](riscseismicbucuresti.ro) - a fast and free tool to check buildings with seismic risk in Bucharest
+>
+> Technology: Node.js, React.js, PostgreSQL, Redis
+>
+> Personal project
+
 > Apr 2019 – Present 
 >
 > [Liquid Investigations](https://liquidinvestigations.github.io/) - a secure collaboration server for investigative journalism projects. 
