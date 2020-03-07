@@ -65,7 +65,7 @@ Role: Senior Developer
 >
 > Personal project
 
-> Apr 2019 – Present 
+> Apr 2019 – Dec 2019 
 >
 > [Liquid Investigations](https://liquidinvestigations.github.io/) - a secure collaboration server for investigative journalism projects. 
 >
@@ -73,7 +73,7 @@ Role: Senior Developer
 >
 > Role: Senior Developer
 
-> Apr 2019 - Present
+> Apr 2019 - Dec 2019
 >
 > [Hoover toolset](https://hoover.github.io/) - a set of tools for searching in large collections of documents
 >
