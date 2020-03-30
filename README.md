@@ -30,8 +30,9 @@
 > August 2019 - present 
 >
 > FarmHub analyzes satellite imagery of farms, helping farmers to reduce scouting effort by as much as 90%. It turns imagery into a prescription map for fertilizer and crop protection application and optimize farm production and view analytics on farm performance. 
-Technologies: Python, Django, PostgreSQL, PostGIS, Vue.js, Leaflet.js
-Role: Senior Developer
+> Technologies: Python, Django, PostgreSQL, PostGIS, Vue.js, Leaflet.js
+>
+> Role: Senior Developer
 
 > August 2019 – Present 
 >
