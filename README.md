@@ -11,7 +11,7 @@
 
 `March 2020 - Present`
 
-> Technologies: node.JS, mongodb
+`Technologies: node.JS, mongodb`
 
 ---
 
