@@ -13,6 +13,7 @@
 
 > Technologies: node.JS, mongodb
 
+---
 
 **Senior Software Engineer @ [Eau de Web](https://www.eaudeweb.ro/)** 
 
