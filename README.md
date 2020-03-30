@@ -7,11 +7,18 @@
 
 ## Experience
 
+**Senior Backend Developer @ [Optilyz](https://www.optilyz.com/)** 
+
+`March 2020 - Present`
+
+> Technologies: node.JS, mongodb
+
+
 **Senior Software Engineer @ [Eau de Web](https://www.eaudeweb.ro/)** 
 
-`April 2019 - Present`
+`April 2019 - March 2020`
 
-> October 2019 - present
+> October 2019 - March 2020
 >
 > [School Meals](https://www.wfp.org/school-meals) manages the attendance and the food delivery and consumption in the World Food Programme projects
 >
