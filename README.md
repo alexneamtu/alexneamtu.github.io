@@ -10,8 +10,11 @@
 **Senior Backend Developer @ [Optilyz](https://www.optilyz.com/)** 
 
 `March 2020 - Present`
+> optilyz is Europe's leading direct mail automation software. The tools that the company offers provide straightforward ways to integrate letters, postcards and > selfmailers into the customer's cross-channel marketing as well as solutions to automate and better personalize their campaigns.
+>
+> Design and development for the company internal and external APIs and web applications.
 
-`Technologies: node.JS, mongodb`
+`Technologies: node.js, mongo, rest api, react.js, aws`
 
 ---
 
