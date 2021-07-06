@@ -14,7 +14,7 @@
 >
 > Backend development for the company internal and external applications.
 
-`Technologies: lambda, node.js, dynamodb, graphql, elasticsearch, aws`
+`Technologies: lambda, node.js, typescript, dynamodb, graphql, elasticsearch, aws`
 
 ---
 
