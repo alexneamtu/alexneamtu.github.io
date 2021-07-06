@@ -7,9 +7,31 @@
 
 ## Experience
 
+**Senior Backend Developer @ [clipr.ai](https://clipr.ai/)** 
+
+`July 2021 - Present`
+> CLIPr is a video analysis and management (VAM) platform using AI and machine learning for videos
+>
+> Backend development for the company internal and external applications.
+
+`Technologies: node.js, aws`
+
+---
+
+**Senior Full Stack Developer @ [origin.me](https://origin.me/)** 
+
+`March 2021 - Present`
+> Origin provides you with the most personalized trips based on who you are and what you want to experience next.
+>
+> Frontend and backend development for the company internal and external applications.
+
+`Technologies: reactjs, next.js, node.js, gcp`
+
+---
+
 **Senior Backend Developer @ [Optilyz](https://www.optilyz.com/)** 
 
-`March 2020 - Present`
+`March 2020 - July 2021`
 > optilyz is Europe's leading direct mail automation software. The tools that the company offers provide straightforward ways to integrate letters, postcards and > selfmailers into the customer's cross-channel marketing as well as solutions to automate and better personalize their campaigns.
 >
 > Design and development for the company internal and external APIs and web applications.
