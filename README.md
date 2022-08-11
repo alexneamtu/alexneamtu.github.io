@@ -1,6 +1,7 @@
 ## Contact
 
-> Bucharest, Romania | alexneamtu@gmail.com
+> Bucharest, Romania | alexneamtu@gmail.com | [<img alt="alt_text" width="40px" src="https://ro.linkedin.com/img/logos/logo-linkedin-84x21-21dp.png?_l=en_US" />](https://www.linkedin.com/in/alexneamtu/)
+
 
 ## Profile
 > I am a highly experienced `Software Developer` with over 15 years experience with a proven track record of using good engineering practice to produce software for new, innovative and profitable products and solutions.
