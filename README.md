@@ -7,14 +7,14 @@
 
 ## Experience
 
-**Senior Backend Developer @ [clipr.ai](https://clipr.ai/)** 
+**Senior Backend Developer @ [The Room](https://theroom.com/)** 
 
-`July 2021 - Present`
-> CLIPr is a video analysis and management (VAM) platform using AI and machine learning for videos
+`June 2022 - Present`
+> The Room is part of the African Leadership Group, which has selected, developed, and connected thousands of high-performing talent to the world’s most rigorous employers over the last 17 years.
 >
-> Backend development for the company internal and external applications.
+> Frontend and backend development for the company internal and client facing applications.
 
-`Technologies: lambda, node.js, typescript, dynamodb, graphql, elasticsearch, aws`
+`Technologies: typescript, node.js, reactjs, graphql, rest, aws, aws cdk, aws cognito, postgresql`
 
 ---
 
@@ -23,9 +23,29 @@
 `March 2021 - Present`
 > Origin provides you with the most personalized trips based on who you are and what you want to experience next.
 >
-> Frontend and backend development for the company internal and external applications.
+> Frontend and backend development for the company internal and client facing applications.
 
-`Technologies: reactjs, next.js, node.js, gcp`
+`Technologies: typescript, node.js, reactjs, next.js, cloud functions, google cloud platform, firestore`
+
+---
+
+**Senior Full Stack Developer @ [upper](https://upper.co/)** 
+
+`December 2019 - Present`
+> Work on different project assigned by the company.
+
+`Technologies: typescript, node.js, reactjs, next.js, google cloud platform, google cloud run, google cloud functions, firestore`
+
+---
+
+**Senior Backend Developer @ [clipr.ai](https://clipr.ai/)** 
+
+`July 2021 - July 2022`
+> CLIPr is a video analysis and management (VAM) platform using AI and machine learning for videos
+>
+> Backend development for the company internal and client facing applications.
+
+`Technologies: serverless, lambda, node.js, typescript, dynamodb, graphql, elasticsearch, aws`
 
 ---
 
