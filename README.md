@@ -1,7 +1,7 @@
 # Alexandru Neamtu 
 **Senior Software Developer**
 
-[PDF](https://free-md-to-pdf.herokuapp.com/?url=https://raw.githubusercontent.com/alexneamtu/alexneamtu-resume/master/README.md&filename=alexneamtu)
+[:page_facing_up: PDF](https://free-md-to-pdf.herokuapp.com/?url=https://raw.githubusercontent.com/alexneamtu/alexneamtu-resume/master/README.md&filename=alexneamtu)
 
 
 ## Contact
