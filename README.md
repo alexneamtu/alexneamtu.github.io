@@ -1,5 +1,8 @@
-## Contact
+# Alexandru Neamtu 
+**Senior Software Developer**
 
+
+## Contact
 > Bucharest, Romania | alexneamtu@gmail.com | [<img alt="alt_text" width="40px" src="https://ro.linkedin.com/img/logos/logo-linkedin-84x21-21dp.png?_l=en_US" />](https://www.linkedin.com/in/alexneamtu/)
 
 
