@@ -3,9 +3,7 @@
 
 
 ## Contact
-> Bucharest, Romania | alexneamtu@gmail.com 
-> 
-> [<img alt="alt_text" src="https://ro.linkedin.com/img/logos/logo-linkedin-84x21-21dp.png?_l=en_US" />](https://www.linkedin.com/in/alexneamtu/)
+> Bucharest, Romania | alexneamtu@gmail.com | https://www.linkedin.com/in/alexneamtu/
 
 
 ## Profile
