@@ -61,10 +61,12 @@ jobs:
         id: publish-document
         with:
           sources: 'README.md'
-      - run: mkdir -p resume
-      - name: Upload Document
-        uses: actions/upload-artifact@v2
-        id: upload-document
+      - name: Setup node
+        uses: actions/setup-node@v1
+      - name: Upload to GitHub
+        uses: LasyIsLazy/github-upload-action@v0.1.0
         with:
-          name: alexneamtu.pdf
-          path: resume/alexneamtu.pdf
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+          file-path:  ${{ steps.publish-document.outputs.pdf }}
+          owner: alexneamtu
+          repo: alexneamtu-resume
