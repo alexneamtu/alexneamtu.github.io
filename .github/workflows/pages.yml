@@ -52,14 +52,18 @@ jobs:
   # Generate pdf
   makepdfs:
     runs-on: ubuntu-latest
+    name: Publish Document
     steps:
-    - uses: actions/checkout@v1
-    - uses: mkrakowitzer/actions-makepdfs@master
-      if: github.ref == 'refs/heads/master'
-      with:
-        markdown_dir: README.md
-        output_dir: tmp
-    - uses: actions/upload-artifact@v1
-      with:
-        name: platform-architecture-docs
-        path: tmp
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Publish PDF Document
+        uses: shrink/actions-document-publish@v1
+        id: publish-document
+        with:
+          sources: 'README.md'
+      - name: Upload Document
+        uses: actions/upload-artifact@v2
+        id: upload-document
+        with:
+          name: 'alexneamtu.pdf'
+          path: ${{ steps.publish-document.outputs.pdf }}
