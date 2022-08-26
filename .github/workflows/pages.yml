@@ -49,10 +49,10 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
 
-  # Generate pdf
+  # Generate PDF
   makepdfs:
     runs-on: ubuntu-latest
-    name: Publish Document
+    name: Generate PDF
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -61,9 +61,10 @@ jobs:
         id: publish-document
         with:
           sources: 'README.md'
+      - run: mkdir -p resume
       - name: Upload Document
         uses: actions/upload-artifact@v2
         id: upload-document
         with:
-          name: 'alexneamtu.pdf'
-          path: ${{ steps.publish-document.outputs.pdf }}
+          name: alexneamtu.pdf
+          path: resume/alexneamtu.pdf
