@@ -61,13 +61,12 @@ jobs:
         id: publish-document
         with:
           sources: 'README.md'
-      - name: Setup node
-        uses: actions/setup-node@v1
-      - name: Upload to GitHub
-        uses: LasyIsLazy/github-upload-action@v0.1.0
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
         with:
-          access-token: ${{ secrets.ACCESS_TOKEN }}
-          file-path:  ${{ steps.publish-document.outputs.pdf }}
-          owner: alexneamtu
-          repo: alexneamtu-resume
-          branch-name: main
+          repo_token: ${{ secrets.ACCESS_TOKEN }}
+          file:  ${{ steps.publish-document.outputs.pdf }}
+          asset_name: resume.pdf
+          tag: ${{ github.ref }}
+          overwrite: true
+          body: "This is my pdf resume"
