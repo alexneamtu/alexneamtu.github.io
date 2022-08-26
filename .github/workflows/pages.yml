@@ -70,3 +70,4 @@ jobs:
           file-path:  ${{ steps.publish-document.outputs.pdf }}
           owner: alexneamtu
           repo: alexneamtu-resume
+          branch-name: main
