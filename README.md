@@ -4,6 +4,7 @@
 [Resume in PDF format](https://github.com/alexneamtu/alexneamtu-resume/releases/download/master/resume.pdf)
 
 
+
 ## Contact
 > Bucharest, Romania | alexneamtu@gmail.com | https://www.linkedin.com/in/alexneamtu/
 
