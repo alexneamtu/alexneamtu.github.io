@@ -6,7 +6,7 @@
 
 
 ## Contact
-> Bucharest, Romania | alexneamtu@gmail.com | https://www.linkedin.com/in/alexneamtu/
+> Bucharest, Romania | [email](mailto:alexneamtu@gmail.com) | [linkedin](https://www.linkedin.com/in/alexneamtu/)
 
 
 ## Profile
