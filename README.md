@@ -1,7 +1,7 @@
 # Alexandru Neamtu 
 **Senior Software Developer**
 
-[Resume in PDF format](https://github.com/alexneamtu/alexneamtu-resume/releases/download/master/resume.pdf)
+[PDF](https://github.com/alexneamtu/alexneamtu-resume/releases/download/master/resume.pdf)
 
 
 
