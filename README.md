@@ -16,14 +16,15 @@
 
 ## Experience
 
-**Senior Backend Developer @ [The Room](https://theroom.com/)** 
 
-`June 2022 - Present`
-> The Room is part of the African Leadership Group, which has selected, developed, and connected thousands of high-performing talent to the world’s most rigorous employers over the last 17 years.
+**Senior Backend Developer @ [cardseer.com](https://www.cardseer.com/)** 
+
+`February 2023 - Present`
+> The Expedia & Instagram for trading cards. ALL trading cards, one platform.
 >
-> Frontend and backend development for the company internal and client facing applications.
+> Backend development for the company internal and client facing application
 
-`Technologies: typescript, node.js, reactjs, graphql, rest, aws, aws cdk, aws cognito, postgresql`
+`Technologies: serverless, lambda, node.js, typescript, dynamodb, graphql, elasticsearch, aws`
 
 ---
 
@@ -44,6 +45,17 @@
 > Work on different project assigned by the company.
 
 `Technologies: typescript, node.js, reactjs, next.js, google cloud platform, google cloud run, google cloud functions, firestore`
+
+---
+
+**Senior Backend Developer @ [The Room](https://theroom.com/)** 
+
+`July 2022 - February 2023`
+> The Room is part of the African Leadership Group, which has selected, developed, and connected thousands of high-performing talent to the world’s most rigorous employers over the last 17 years.
+>
+> Frontend and backend development for the company internal and client facing applications.
+
+`Technologies: typescript, node.js, reactjs, graphql, rest, aws, aws cdk, aws cognito, postgresql`
 
 ---
 
