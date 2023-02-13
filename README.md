@@ -10,7 +10,9 @@
 
 
 ## Profile
-> I am a highly experienced `Software Developer` with over 15 years experience with a proven track record of using good engineering practice to produce software for new, innovative and profitable products and solutions.
+> I am a Software Developer with almost 20 years of extensive experience, mainly as a senior backend developer, but also as senior full stack developer, with a proven track record of using good engineering practices. 
+
+> I have developed and maintained a variety of applications, ranging from media delivery solutions, direct mail automation software, video analysis and management platforms, and educational projects.
 
 ## Experience
 
