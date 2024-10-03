@@ -17,25 +17,33 @@
 ## Experience
 
 
-**Senior Backend Developer @ [cardseer.com](https://www.cardseer.com/)** 
+**Senior Software Developer @ [Sand Technologies]([https://www.cardseer.com/](https://www.sandtech.com/))** 
 
-`February 2023 - Present`
-> The Expedia & Instagram for trading cards. ALL trading cards, one platform.
->
-> Backend development for the company internal and client facing application
+`July 2021 - Present`
+> Sand Technologies is a global AI solutions company with expertise in enterprise and industrial AI, and data science.
 
-`Technologies: serverless, lambda, node.js, typescript, dynamodb, graphql, elasticsearch, aws`
+> As a senior developer, I contributed to the cloud-native serverless architecture by designing and implementing highly scalable, event-driven APIs and workflows leveraging the AWS services for projects such as:
+
+> [Diginym](https://diginym.com/) - A ground-breaking AI content agency, creating broadcast quality video content for our corporate and broadcast clients using proprietary workflow and code, where you never need to be filmed again.
+
+> [CLIPr] (https://www.clipr.ai/) - A video analysis and management (VAM) platform using AI and machine learning for videos
+
+> [CardSeer] (https://www.cardseer.com/) - The Expedia & Instagram for trading cards. ALL trading cards, one platform.
+
+> [The Room] (https://www.theroom.com/) - The Room is part of the African Leadership Group, which has selected, developed, and connected thousands of high-performing talent to the world’s most rigorous employers over the last 17 years.
+
+`Technologies: Node.js · Python (Programming Language) · TypeScript · GraphQL · PostgreSQL · Amazon Dynamodb · Elasticsearch · Amazon Web Services (AWS) · AWS Cloud Development Kit · Serverless Framework · Serverless Computing · Amazon Cognito · AWS Step Functions · AWS Lambda · Amazon SQS · Amazon Simple Notification Service (SNS) · AWS CloudFormation`
 
 ---
 
-**Senior Full Stack Developer @ [origin.me](https://origin.me/)** 
+**Senior Full Stack Developer @ [Scenset](https://scenset.com/)** 
 
 `March 2021 - Present`
 > Origin provides you with the most personalized trips based on who you are and what you want to experience next.
 >
 > Frontend and backend development for the company internal and client facing applications.
 
-`Technologies: typescript, node.js, reactjs, next.js, cloud functions, google cloud platform, firestore`
+`Technologies: React.js · Node.js · Cloud Firestore · Algolia · PostgreSQL · Google Cloud Platform (GCP) · Pulumi · Serverless Computing · Google Cloud Run`
 
 ---
 
@@ -44,29 +52,7 @@
 `December 2019 - Present`
 > Work on different project assigned by the company.
 
-`Technologies: typescript, node.js, reactjs, next.js, google cloud platform, google cloud run, google cloud functions, firestore`
-
----
-
-**Senior Backend Developer @ [The Room](https://theroom.com/)** 
-
-`July 2022 - February 2023`
-> The Room is part of the African Leadership Group, which has selected, developed, and connected thousands of high-performing talent to the world’s most rigorous employers over the last 17 years.
->
-> Frontend and backend development for the company internal and client facing applications.
-
-`Technologies: typescript, node.js, reactjs, graphql, rest, aws, aws cdk, aws cognito, postgresql`
-
----
-
-**Senior Backend Developer @ [clipr.ai](https://clipr.ai/)** 
-
-`July 2021 - July 2022`
-> CLIPr is a video analysis and management (VAM) platform using AI and machine learning for videos
->
-> Backend development for the company internal and client facing applications.
-
-`Technologies: serverless, lambda, node.js, typescript, dynamodb, graphql, elasticsearch, aws`
+`Technologies: Node.js · React.js · TypeScript · Cloud Firestore · Algolia · PostgreSQL · Google Cloud Platform (GCP) · Pulumi · Serverless Computing · Google Cloud Run`
 
 ---
 
@@ -77,7 +63,7 @@
 >
 > Design and development for the company internal and external APIs and web applications.
 
-`Technologies: node.js, mongo, rest api, react.js, aws`
+`Technologies: Node.js · JavaScript · React.js · REST APIs · MongoDB · Amazon Web Services (AWS)`
 
 ---
 
@@ -85,34 +71,15 @@
 
 `April 2019 - March 2020`
 
-> October 2019 - March 2020
->
-> [School Meals](https://www.wfp.org/school-meals) manages the attendance and the food delivery and consumption in the World Food Programme projects
->
-> Technologies: Python, Django, PostgreSQL
->
-> Role: Senior Developer
+> [School Meals](https://schoolmealscoalition.org/) manages the attendance and the food delivery and consumption in the World Food Programme projects
 
-> August 2019 - present 
->
-> FarmHub analyzes satellite imagery of farms, helping farmers to reduce scouting effort by as much as 90%. It turns imagery into a prescription map for fertilizer and crop protection application and optimize farm production and view analytics on farm performance. 
-> Technologies: Python, Django, PostgreSQL, PostGIS, Vue.js, Leaflet.js
->
-> Role: Senior Developer
+> [Ogor](https://ogor.ro/) analyzes satellite imagery of farms, helping farmers to reduce scouting effort by as much as 90%. It turns imagery into a prescription map for fertilizer and crop protection application and optimize farm production and view analytics on farm performance. 
 
-> August 2019 – Present 
->
 > [Scratch](https://github.com/eaudeweb/scratch) - a scraper for the [United Nations](https://www.ungm.org) and [TED](https://ted.europa.eu) notices
->
-> Technologies: python, django, postgresql, elasticsearch
->
-> Role: Senior Developer
 
-> Oct 2019 - Jan 2020
-> 
 > Held the Django Web Application course for the senior year at the University of Bucharest
 
-`Technologies: python, django, elasticsearch, vue.js, postgresql`
+`Technologies: Python (Programming Language) · Vue.js · Django · Django REST Framework · PostgreSQL · Elasticsearch · Leaflet.js · PostGIS`
 
 ---
 
@@ -122,7 +89,7 @@
 
 > Design and development for the [Discover Project](https://ownzones.com/products-services/discover/) (a media delivery solution that helps content owners leverage their content libraries)
 
-`Technologies: node.js, typescript, graphQl, postgresql, elasticsearch, redis, aws`
+`Technologies: Node.js · TypeScript · GraphQL · PostgreSQL · Elasticsearch · Redis · Amazon Web Services (AWS) · Kubernetes`
  
 ---
 
@@ -132,31 +99,13 @@
 
 > Development and maintenance for different projects, such as:
 
-> Mar 2020 - Present
->
 > [Risc seismic Bucuresti](riscseismicbucuresti.ro) - a fast and free tool to check buildings with seismic risk in Bucharest
->
-> Technology: Node.js, React.js, PostgreSQL, Redis
->
-> Personal project
 
-> Apr 2019 – Dec 2019 
->
 > [Liquid Investigations](https://liquidinvestigations.github.io/) - a secure collaboration server for investigative journalism projects. 
->
-> Technology: Python, Django, PostgreSQL
->
-> Role: Senior Developer
 
-> Apr 2019 - Dec 2019
->
 > [Hoover toolset](https://hoover.github.io/) - a set of tools for searching in large collections of documents
->
-> Technology: Python, Django, PostgreSQL, ElasticSearch
->
-> Role: Senior Developer
 
-`Technologies: python, django, php, wordpress, drupal, mysql, postgresql, elasticsearch, aws` 
+`Technologies: Node.js · Python (Programming Language) · Django · PHP · GraphQL · Elasticsearch · MongoDB · PostgreSQL · Amazon Web Services (AWS) · Google Cloud Platform (GCP)s` 
  
 ---
 
@@ -168,7 +117,7 @@
 
 > High-level decision maker to determine everything from design choices to technical standards, such as platforms and coding standards. 
 
-`Technologies: node.js, golang, angular.js, mysql`
+`Technologies: Node.js · Go · Angular · Perl · jQuery · MySQL · Oracle`
 
 ---
 
@@ -192,7 +141,7 @@
 >
 > Role: Senior Developer
 
-`Technologies: perl, jQuery, oracle, node.js, golang, angular.js, mysql`
+`Technologies: Node.js · Go · Angular · Perl · jQuery · MySQL · Oracle`
 
 ---
 
@@ -202,7 +151,7 @@
 
 > Development and maintenance for a bitcoin payment gateway and bitcoin wallet.
 
-`Technologies: php, symfony2, angular.js, jQuery, phonegap, mysql, bitcoin, blockchain` 
+`Technologies: PHP · Symphony · AngularJS · jQuery · PhoneGap · MySQL · Blockchain · Bitcoin` 
 
 ---
 
@@ -212,7 +161,7 @@
 
 > Integration and maintenance of mobile detection and mobile payment solutions.
 
-`Technologies: php, wordpress, node.js, jQuery, ` 
+`Technologies: PHP · WordPress · Node.js · jQuery` 
 
 ---
 
@@ -222,7 +171,7 @@
 
 > Development and maintenance for the automation testing framework of the company's B2B enterprise solutions
 
-`Technologies: perl, java` 
+`Technologies: Perl · Java` 
 
 ---
 
@@ -242,7 +191,7 @@
 
 > Development and maintenance for the in-house ticketing system used by the company
 
-`Technologies: perl, javascript, oracle` 
+`Technologies: Perl · JavaScript · jQuery · Oracle` 
 
 ---
 
@@ -252,7 +201,7 @@
 
 > Development and maintenance for presentation and e-commerce websites
 
-`Technologies: php, javascript, mysql` 
+`Technologies: PHP · JavaScript · jQuery · MySQL` 
 
 
 ## Education
