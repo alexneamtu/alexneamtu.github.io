@@ -26,11 +26,11 @@
 
 > [Diginym](https://diginym.com/) - A ground-breaking AI content agency, creating broadcast quality video content for our corporate and broadcast clients using proprietary workflow and code, where you never need to be filmed again.
 
-> [CLIPr] (https://www.clipr.ai/) - A video analysis and management (VAM) platform using AI and machine learning for videos
+> [CLIPr](https://www.clipr.ai/) - A video analysis and management (VAM) platform using AI and machine learning for videos
 
-> [CardSeer] (https://www.cardseer.com/) - The Expedia & Instagram for trading cards. ALL trading cards, one platform.
+> [CardSeer](https://www.cardseer.com/) - The Expedia & Instagram for trading cards. ALL trading cards, one platform.
 
-> [The Room] (https://www.theroom.com/) - The Room is part of the African Leadership Group, which has selected, developed, and connected thousands of high-performing talent to the world’s most rigorous employers over the last 17 years.
+> [The Room](https://www.theroom.com/) - The Room is part of the African Leadership Group, which has selected, developed, and connected thousands of high-performing talent to the world’s most rigorous employers over the last 17 years.
 
 `Technologies: Node.js · Python (Programming Language) · TypeScript · GraphQL · PostgreSQL · Amazon Dynamodb · Elasticsearch · Amazon Web Services (AWS) · AWS Cloud Development Kit · Serverless Framework · Serverless Computing · Amazon Cognito · AWS Step Functions · AWS Lambda · Amazon SQS · Amazon Simple Notification Service (SNS) · AWS CloudFormation`
 
