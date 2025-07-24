@@ -38,21 +38,12 @@
 
 **Senior Full Stack Developer @ [Scenset](https://scenset.com/)** 
 
-`March 2021 - Present`
+`March 2021 - June 2025`
 > Origin provides you with the most personalized trips based on who you are and what you want to experience next.
 >
 > Frontend and backend development for the company internal and client facing applications.
 
 `Technologies: React.js · Node.js · Cloud Firestore · Algolia · PostgreSQL · Google Cloud Platform (GCP) · Pulumi · Serverless Computing · Google Cloud Run`
-
----
-
-**Senior Full Stack Developer @ [upper](https://upper.co/)** 
-
-`December 2019 - Present`
-> Work on different project assigned by the company.
-
-`Technologies: Node.js · React.js · TypeScript · Cloud Firestore · Algolia · PostgreSQL · Google Cloud Platform (GCP) · Pulumi · Serverless Computing · Google Cloud Run`
 
 ---
 
