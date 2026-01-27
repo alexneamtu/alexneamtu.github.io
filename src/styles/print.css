@@ -1,0 +1,110 @@
+@media print {
+  :root {
+    --color-bg: #ffffff;
+    --color-text: #111111;
+    --color-text-muted: #444444;
+    --color-accent: #0369a1;
+    --color-border: #d4d4d8;
+  }
+
+  body {
+    font-size: 11pt;
+    line-height: 1.4;
+    background: white;
+    color: black;
+  }
+
+  .nav,
+  .hero-pdf,
+  .nav-download,
+  .footer {
+    display: none !important;
+  }
+
+  .hero {
+    min-height: auto !important;
+    padding: 0 !important;
+    margin-bottom: 1rem;
+  }
+
+  .hero-name {
+    font-size: 22pt !important;
+  }
+
+  .hero-tagline {
+    display: none;
+  }
+
+  .hero-print-links {
+    display: flex !important;
+    gap: 1rem;
+    font-size: 9pt;
+    color: var(--color-text-muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-print-links span {
+    white-space: nowrap;
+  }
+
+  .hero-links {
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-social {
+    border: none !important;
+    padding: 0 !important;
+    font-size: 9pt;
+  }
+
+  .section {
+    padding: 0.75rem 0 !important;
+  }
+
+  .section-heading {
+    font-size: 13pt;
+    margin-bottom: 0.5rem;
+  }
+
+  .timeline-item,
+  .edu-item {
+    break-inside: avoid;
+  }
+
+  .drawer-chevron {
+    display: none !important;
+  }
+
+  .drawer {
+    cursor: default;
+  }
+
+  .drawer-content {
+    animation: none !important;
+  }
+
+  .tech-tag {
+    font-size: 7pt;
+    padding: 1px 3px;
+    border: 1px solid var(--color-border);
+    background: none;
+    color: var(--color-text);
+  }
+
+  .skill-tag {
+    font-size: 8pt;
+    padding: 1px 4px;
+    border: 1px solid var(--color-border);
+    background: none;
+    color: var(--color-text);
+  }
+
+  a {
+    color: var(--color-text) !important;
+    text-decoration: none;
+  }
+
+  a[href^="http"]::after {
+    content: none;
+  }
+}

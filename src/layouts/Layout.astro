@@ -1,0 +1,48 @@
+---
+import Nav from '../components/Nav.astro';
+import '../styles/global.css';
+import '../styles/print.css';
+
+interface Props {
+  title: string;
+}
+const { title } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Alex Neamtu — Senior Software Engineer, Bucharest. 20+ years of experience in backend and full-stack development." />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content="Senior Software Engineer based in Bucharest with 20+ years of experience in backend and full-stack development." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alexneamtu.github.io" />
+    <meta name="twitter:card" content="summary" />
+    <title>{title}</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <Nav />
+    <main style="padding-top: 4rem;">
+      <slot />
+    </main>
+    <script>
+      window.addEventListener('beforeprint', () => {
+        document.querySelectorAll('details:not([open])').forEach(d => {
+          d.setAttribute('open', '');
+          d.dataset.printOpened = 'true';
+        });
+      });
+      window.addEventListener('afterprint', () => {
+        document.querySelectorAll('details[data-print-opened]').forEach(d => {
+          d.removeAttribute('open');
+          delete d.dataset.printOpened;
+        });
+      });
+    </script>
+  </body>
+</html>

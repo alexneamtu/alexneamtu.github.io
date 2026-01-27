@@ -1,0 +1,369 @@
+---
+const experiences = [
+  {
+    role: 'Senior Software Engineer',
+    company: 'Archbee',
+    url: 'https://www.archbee.com/',
+    period: '2025 – Present',
+    summary: 'Infrastructure modernization and developer experience for a documentation platform.',
+    details: [
+      'Migrated monorepo tooling from npm to pnpm and Turborepo.',
+      'Security hardening, Node.js upgrades, and bundle size optimization.',
+      'CI/CD and Docker build improvements.',
+    ],
+    tech: ['Node.js', 'TypeScript', 'React', 'Turborepo', 'pnpm', 'Docker', 'AWS'],
+  },
+  {
+    role: 'Senior Software Engineer',
+    company: 'Sand Technologies',
+    url: 'https://www.sandtech.com/',
+    period: '2021 – Present',
+    summary: 'Cloud-native serverless APIs and workflows on AWS for AI and media products.',
+    details: [
+      'Designed and implemented highly scalable, event-driven APIs and workflows leveraging AWS services.',
+      'Diginym — AI content agency creating broadcast-quality video content using proprietary workflows.',
+      'CLIPr — Video analysis and management platform using AI and machine learning.',
+      'CardSeer — Trading card marketplace and discovery platform.',
+      'The Room — Talent matching platform for the African Leadership Group.',
+    ],
+    tech: ['Node.js', 'Python', 'TypeScript', 'GraphQL', 'PostgreSQL', 'DynamoDB', 'Elasticsearch', 'AWS CDK', 'Lambda', 'Step Functions', 'SQS', 'SNS'],
+  },
+  {
+    role: 'Freelance Software Developer',
+    company: 'Self-Employed',
+    url: null,
+    period: '2012 – Present',
+    summary: 'Independent projects in civic tech, investigative journalism, and document search.',
+    details: [
+      'Risc Seismic Bucuresti — Fast, free tool to check buildings with seismic risk in Bucharest.',
+      'Liquid Investigations — Secure collaboration server for investigative journalism projects.',
+      'Hoover — Toolset for searching in large collections of documents.',
+    ],
+    tech: ['Node.js', 'Python', 'Django', 'PHP', 'GraphQL', 'Elasticsearch', 'MongoDB', 'PostgreSQL', 'AWS', 'GCP'],
+  },
+  {
+    role: 'Senior Full Stack Developer',
+    company: 'Scenset',
+    url: 'https://scenset.com/',
+    period: '2021 – 2025',
+    summary: 'Frontend and backend for a personalized travel platform.',
+    details: [
+      'Built internal and client-facing applications for personalized trip recommendations.',
+      'Full-stack development with React frontend and Node.js backend services.',
+      'Infrastructure on GCP using Pulumi for infrastructure-as-code.',
+    ],
+    tech: ['React', 'Node.js', 'Cloud Firestore', 'Algolia', 'PostgreSQL', 'GCP', 'Pulumi', 'Cloud Run'],
+  },
+  {
+    role: 'Senior Backend Developer',
+    company: 'optilyz',
+    url: 'https://www.optilyz.com/',
+    period: '2020 – 2021',
+    summary: "Internal and external APIs for Europe's leading direct mail automation software.",
+    details: [
+      "Designed and developed APIs for optilyz's cross-channel marketing platform.",
+      'Built tools to automate and personalize direct mail campaigns at scale.',
+    ],
+    tech: ['Node.js', 'JavaScript', 'React', 'REST APIs', 'MongoDB', 'AWS'],
+  },
+  {
+    role: 'Senior Software Engineer',
+    company: 'Eau de Web',
+    url: 'https://www.eaudeweb.ro/',
+    period: '2019 – 2020',
+    summary: 'WFP food delivery, satellite farm analytics, UN procurement scraper. Taught Django at university.',
+    details: [
+      'School Meals — Managed attendance, food delivery and consumption for World Food Programme projects.',
+      'Ogor — Analyzed satellite imagery of farms, turning imagery into prescription maps for fertilizer and crop protection.',
+      'Scratch — Scraper for United Nations and TED procurement notices.',
+      'Held the Django Web Application course for senior year at the University of Bucharest.',
+    ],
+    tech: ['Python', 'Vue.js', 'Django', 'Django REST Framework', 'PostgreSQL', 'Elasticsearch', 'Leaflet.js', 'PostGIS'],
+  },
+  {
+    role: 'Senior Backend Developer',
+    company: 'OWNZONES Entertainment',
+    url: 'https://ownzones.com/',
+    period: '2017 – 2019',
+    summary: 'Media delivery platform helping content owners leverage their libraries.',
+    details: [
+      'Designed and built the Discover Project — a media delivery solution for content owners.',
+      'Backend architecture with Node.js, TypeScript, and GraphQL on AWS with Kubernetes.',
+    ],
+    tech: ['Node.js', 'TypeScript', 'GraphQL', 'PostgreSQL', 'Elasticsearch', 'Redis', 'AWS', 'Kubernetes'],
+  },
+  {
+    role: 'Earlier Roles',
+    company: 'Endava, Coinzone, Pionix, Axway, Stefanini, Ascensys',
+    url: null,
+    period: '2004 – 2017',
+    summary: 'Lead Designer, Tech Lead, and Software Developer across paywall systems, crypto payments, automation, and e-commerce.',
+    details: [
+      'Endava (2015–2017) — Lead Designer and Tech Lead for paywall systems of multiple US publications.',
+      'Coinzone (2014–2015) — Bitcoin payment gateway and wallet development.',
+      'Pionix (2013–2014) — Mobile detection and mobile payment solutions.',
+      'Axway (2011–2012) — Automation testing framework for B2B enterprise solutions.',
+      'Stefanini/Techteam (2007–2011) — Ticketing system development and maintenance.',
+      'Ascensys (2004–2007) — Presentation and e-commerce website development.',
+    ],
+    tech: ['Node.js', 'Go', 'Angular', 'PHP', 'Perl', 'Java', 'MySQL', 'Oracle'],
+  },
+];
+---
+<section class="section" id="experience">
+  <h2 class="section-heading">Experience</h2>
+  <div class="timeline">
+    {experiences.map(exp => (
+      <div class="timeline-item">
+        {exp.details ? (
+          <details class="drawer">
+            <summary class="drawer-summary">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">{exp.role}</h3>
+                  <p class="timeline-company">
+                    {exp.url ? (
+                      <a href={exp.url} target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">{exp.company}</a>
+                    ) : (
+                      exp.company
+                    )}
+                  </p>
+                </div>
+                <span class="timeline-period">{exp.period}</span>
+              </div>
+              {exp.summary && <p class="timeline-summary">{exp.summary}</p>}
+              <span class="drawer-chevron" aria-hidden="true"></span>
+            </summary>
+            <div class="drawer-content">
+              <ul class="drawer-details">
+                {exp.details.map(detail => (
+                  <li>{detail}</li>
+                ))}
+              </ul>
+              {exp.tech && (
+                <div class="drawer-tech">
+                  {exp.tech.map(t => (
+                    <span class="tech-tag">{t}</span>
+                  ))}
+                </div>
+              )}
+            </div>
+          </details>
+        ) : (
+          <div>
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">{exp.role}</h3>
+                <p class="timeline-company">
+                  {exp.url ? (
+                    <a href={exp.url} target="_blank" rel="noopener noreferrer">{exp.company}</a>
+                  ) : (
+                    exp.company
+                  )}
+                </p>
+              </div>
+              <span class="timeline-period">{exp.period}</span>
+            </div>
+          </div>
+        )}
+      </div>
+    ))}
+  </div>
+</section>
+
+<style>
+  .section {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--space-2xl) var(--space-md);
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: var(--space-lg);
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+  }
+
+  .section-heading::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--color-border);
+  }
+
+  .timeline {
+    display: grid;
+    gap: var(--space-lg);
+  }
+
+  .timeline-item {
+    padding-left: var(--space-lg);
+    border-left: 1px solid var(--color-border);
+    position: relative;
+  }
+
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: 6px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--color-accent);
+  }
+
+  .timeline-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--space-md);
+  }
+
+  .timeline-role {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .timeline-company {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+  }
+
+  .timeline-period {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .timeline-summary {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    margin-top: var(--space-sm);
+  }
+
+  /* Drawer styles */
+  .drawer {
+    cursor: pointer;
+  }
+
+  .drawer-summary {
+    list-style: none;
+    position: relative;
+  }
+
+  .drawer-summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .drawer-summary::marker {
+    display: none;
+    content: '';
+  }
+
+  .drawer summary {
+    list-style-type: none;
+  }
+
+  .drawer-chevron {
+    display: block;
+    margin-top: var(--space-sm);
+    width: 16px;
+    height: 16px;
+    position: relative;
+  }
+
+  .drawer-chevron::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 2px;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid var(--color-text-muted);
+    border-bottom: 2px solid var(--color-text-muted);
+    transform: rotate(45deg);
+    transition: transform 0.2s;
+  }
+
+  details[open] .drawer-chevron::before {
+    transform: rotate(-135deg);
+    top: 6px;
+  }
+
+  .drawer-content {
+    margin-top: var(--space-md);
+    padding-top: var(--space-md);
+    border-top: 1px solid var(--color-border);
+    animation: slideDown 0.2s ease-out;
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-4px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .drawer-details {
+    list-style: none;
+    display: grid;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-md);
+  }
+
+  .drawer-details li {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    padding-left: var(--space-md);
+    position: relative;
+  }
+
+  .drawer-details li::before {
+    content: '›';
+    position: absolute;
+    left: 0;
+    color: var(--color-accent);
+    font-weight: 700;
+  }
+
+  .drawer-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+  }
+
+  .tech-tag {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    padding: 0.15rem 0.45rem;
+    border-radius: 3px;
+  }
+
+  @media (max-width: 640px) {
+    .timeline-header {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .timeline-period {
+      margin-top: 2px;
+    }
+  }
+</style>
