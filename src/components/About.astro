@@ -1,8 +1,12 @@
 <section class="section" id="about">
   <h2 class="section-heading">Summary</h2>
   <p class="about-text">
-    Senior Software Engineer based in Bucharest with 20+ years of experience building production systems, including AI products: ML inference APIs, generative-video pipelines, and LLM-powered SaaS. At Sand Technologies I design event-driven serverless backends on AWS for client products across media, talent, trading, and healthcare, including a government health platform delivered on-site as a Forward Deployed Engineer. Founder of SendRec and UpgradeYou. Core stack: TypeScript, Node.js, Python, AWS serverless, PostgreSQL, DynamoDB, Elasticsearch. Open to senior backend, platform, or founding-engineer roles, fully remote.
+    Senior software engineer with 20+ years building production systems, recently AI products: ML inference APIs, generative-video pipelines, and LLM-powered SaaS. At Sand Technologies I design event-driven serverless backends on AWS, including a government health platform delivered on-site as a Forward Deployed Engineer.
   </p>
+  <dl class="about-facts">
+    <div><dt>Stack</dt><dd>TypeScript, Node.js, Python, AWS serverless, PostgreSQL, DynamoDB, Elasticsearch</dd></div>
+    <div><dt>Looking for</dt><dd>Senior backend, platform, or founding-engineer roles, fully remote</dd></div>
+  </dl>
 </section>
 
 <style>
@@ -10,5 +14,27 @@
     color: var(--color-text-muted);
     font-size: 1rem;
     line-height: 1.8;
+  }
+
+  .about-facts {
+    margin-top: var(--space-md);
+    display: grid;
+    gap: var(--space-xs);
+    font-size: 0.925rem;
+  }
+
+  .about-facts div {
+    display: grid;
+    grid-template-columns: 7rem 1fr;
+    gap: var(--space-md);
+  }
+
+  .about-facts dt {
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .about-facts dd {
+    color: var(--color-text-muted);
   }
 </style>

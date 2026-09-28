@@ -165,7 +165,7 @@ const experiences = [
   <h2 class="section-heading">Experience</h2>
   <div class="timeline">
     {experiences.map(exp => (
-      <div class="timeline-item">
+      <div class:list={['timeline-item', { current: exp.type === 'Full-time' && exp.period.endsWith('Present'), compact: !exp.details }]}>
         <div class="timeline-header">
           <div>
             <h3 class="timeline-role">{exp.role}</h3>
@@ -184,7 +184,7 @@ const experiences = [
         {exp.details && (
           <ul class="exp-details">
             {exp.details.map(detail => (
-              <li set:html={detail} />
+              <li set:html={detail.replace(/^(.+?) — /, '<strong>$1</strong> — ')} />
             ))}
           </ul>
         )}
@@ -210,6 +210,34 @@ const experiences = [
     padding-left: var(--space-lg);
     border-left: 1px solid var(--color-border);
     position: relative;
+  }
+
+  .timeline-item.current {
+    border-left: 2px solid var(--color-accent);
+  }
+
+  .timeline-item.current .timeline-role {
+    font-size: 1.125rem;
+  }
+
+  .timeline-item.compact .timeline-role {
+    font-size: 0.925rem;
+  }
+
+  .timeline-item.compact .timeline-header > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: var(--space-sm);
+  }
+
+  .timeline-item.compact .timeline-company::before {
+    content: '· ';
+  }
+
+  .timeline-item.compact .timeline-summary {
+    margin-top: 0;
+    font-size: 0.825rem;
   }
 
   .timeline-item::before {
@@ -265,6 +293,11 @@ const experiences = [
     list-style: none;
     display: grid;
     gap: var(--space-sm);
+  }
+
+  .exp-details strong {
+    color: var(--color-text);
+    font-weight: 600;
   }
 
   .exp-details li {

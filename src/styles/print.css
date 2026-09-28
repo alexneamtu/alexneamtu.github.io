@@ -15,7 +15,7 @@
   }
 
   .nav,
-  .hero-pdf,
+  .hero-actions,
   .footer {
     display: none !important;
   }
@@ -65,8 +65,7 @@
   }
 
   /* plain comma-separated text so ATS parsers read tags as a list */
-  .tech-tag,
-  .skill-tag {
+  .tech-tag {
     font-family: var(--font-sans) !important;
     font-size: 9pt !important;
     padding: 0 !important;
@@ -75,8 +74,7 @@
     color: var(--color-text) !important;
   }
 
-  .tech-tag:not(:last-child)::after,
-  .skill-tag:not(:last-child)::after {
+  .tech-tag:not(:last-child)::after {
     content: ",";
   }
 

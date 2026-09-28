@@ -29,24 +29,26 @@ const skillGroups = [
 ---
 <section class="section" id="skills">
   <h2 class="section-heading">Skills</h2>
-  <div class="skill-groups">
+  <dl class="skill-groups">
     {skillGroups.map(group => (
       <div class="skill-group">
-        <h3 class="skill-group-title">{group.title}</h3>
-        <div class="skill-tags">
-          {group.skills.map(skill => (
-            <span class="skill-tag">{skill}</span>
-          ))}
-        </div>
+        <dt class="skill-group-title">{group.title}</dt>
+        <dd class="skill-list">{group.skills.join(', ')}</dd>
       </div>
     ))}
-  </div>
+  </dl>
 </section>
 
 <style>
   .skill-groups {
     display: grid;
-    gap: var(--space-lg);
+    gap: var(--space-sm);
+  }
+
+  .skill-group {
+    display: grid;
+    grid-template-columns: 11rem 1fr;
+    gap: var(--space-md);
   }
 
   .skill-group-title {
@@ -55,21 +57,18 @@ const skillGroups = [
     color: var(--color-text-muted);
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    margin-bottom: var(--space-sm);
+    padding-top: 0.15rem;
   }
 
-  .skill-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-sm);
+  .skill-list {
+    font-size: 0.925rem;
+    color: var(--color-text);
   }
 
-  .skill-tag {
-    font-family: var(--font-mono);
-    font-size: 0.8rem;
-    color: var(--color-accent);
-    background: var(--color-accent-muted);
-    padding: 0.25rem 0.65rem;
-    border-radius: 4px;
+  @media (max-width: 640px) {
+    .skill-group {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
   }
 </style>

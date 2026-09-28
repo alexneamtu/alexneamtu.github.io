@@ -38,10 +38,10 @@ const projects = [
         <div class="project-header">
           <h3 class="project-name">
             {p.url ? <a href={p.url} target="_blank" rel="noopener noreferrer">{p.name}</a> : p.name}
+            <span class="project-role"> · {p.role}</span>
           </h3>
           {p.period && <span class="project-period">{p.period}</span>}
         </div>
-        <p class="project-role">{p.role}</p>
         <p class="project-summary">{p.summary}</p>
       </div>
     ))}
@@ -76,6 +76,7 @@ const projects = [
 
   .project-role {
     font-size: 0.875rem;
+    font-weight: 400;
     color: var(--color-text-muted);
   }
 

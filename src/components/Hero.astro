@@ -2,8 +2,7 @@
 const socialLinks = [
   { label: 'GitHub', href: 'https://github.com/alexneamtu' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/alexneamtu/' },
-  { label: 'X', href: 'https://x.com/neamtualexandru' },
-  { label: 'Email', href: 'mailto:alexneamtu@gmail.com' },
+  { label: 'X (Twitter)', href: 'https://x.com/neamtualexandru' },
 ];
 ---
 <section class="hero" id="hero">
@@ -11,11 +10,13 @@ const socialLinks = [
   <h1 class="hero-name">Alex Neamtu</h1>
   <p class="hero-title">Senior Software Engineer</p>
   <p class="hero-location">Bucharest, Romania · Remote only · EU citizen, no visa sponsorship needed</p>
+  <div class="hero-actions">
+    <a class="hero-btn hero-btn-primary" href="mailto:alexneamtu@gmail.com">Email me</a>
+    <button class="hero-btn" onclick="window.print()">↓ Download Resume</button>
+  </div>
   <div class="hero-links">
     {socialLinks.map(link => (
-      <a href={link.href} class="hero-social" target="_blank" rel="noopener noreferrer" aria-label={link.label}>
-        {link.label}
-      </a>
+      <a href={link.href} class="hero-social" target="_blank" rel="noopener noreferrer">{link.label}</a>
     ))}
   </div>
   <div class="hero-print-links">
@@ -24,9 +25,6 @@ const socialLinks = [
     <span>linkedin.com/in/alexneamtu</span>
     <span>x.com/neamtualexandru</span>
   </div>
-  <button class="hero-pdf" onclick="window.print()">
-    ↓ Download Resume
-  </button>
 </section>
 
 <style>
@@ -66,49 +64,56 @@ const socialLinks = [
     margin-bottom: var(--space-lg);
   }
 
+  .hero-actions {
+    display: flex;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-md);
+  }
+
+  .hero-btn {
+    border: 1px solid var(--color-accent);
+    background: none;
+    color: var(--color-accent);
+    padding: 0.55rem 1.25rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: var(--font-sans);
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+  }
+
+  .hero-btn:hover,
+  .hero-btn-primary {
+    background-color: var(--color-accent);
+    color: var(--color-bg);
+    opacity: 1;
+  }
+
+  .hero-btn-primary:hover {
+    opacity: 0.85;
+  }
+
   .hero-links {
     display: flex;
-    gap: var(--space-md);
+    gap: var(--space-lg);
     flex-wrap: wrap;
-    margin-bottom: var(--space-lg);
   }
 
   .hero-social {
     color: var(--color-text-muted);
     font-size: 0.875rem;
     font-weight: 500;
-    padding: 0.3rem 0.6rem;
-    border: 1px solid var(--color-border);
-    border-radius: 6px;
-    transition: color 0.2s, border-color 0.2s;
   }
 
   .hero-social:hover {
     color: var(--color-accent);
-    border-color: var(--color-accent);
     opacity: 1;
-  }
-
-  .hero-pdf {
-    align-self: flex-start;
-    background: none;
-    color: var(--color-accent);
-    border: 1px solid var(--color-accent);
-    padding: 0.5rem 1.25rem;
-    border-radius: 6px;
-    font-size: 0.875rem;
-    font-weight: 600;
-    cursor: pointer;
-    font-family: var(--font-sans);
-    transition: background-color 0.2s, color 0.2s;
   }
 
   .hero-print-links {
     display: none;
   }
 
-  .hero-pdf:hover {
-    background-color: var(--color-accent);
-    color: var(--color-bg);
-  }
 </style>
