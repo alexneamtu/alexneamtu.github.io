@@ -2,6 +2,8 @@
 
 Personal portfolio and resume site built with [Astro](https://astro.build/).
 
+**Live:** https://alexneamtu.github.io/
+
 ## Development
 
 ```bash
