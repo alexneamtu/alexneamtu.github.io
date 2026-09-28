@@ -4,7 +4,7 @@ const experiences = [
     role: 'Senior Software Engineer',
     company: 'Archbee',
     url: 'https://www.archbee.com/',
-    period: '2025 – Present',
+    period: 'Aug 2025 – Present',
     summary: 'Infrastructure modernization and developer experience for a documentation platform.',
     details: [
       'Migrated monorepo tooling from npm to pnpm and Turborepo.',
@@ -17,12 +17,11 @@ const experiences = [
     role: 'Senior Software Engineer',
     company: 'Sand Technologies',
     url: 'https://www.sandtech.com/',
-    period: '2021 – Present',
+    period: 'Jul 2021 – Present',
     summary: 'Cloud-native serverless APIs and workflows on AWS for AI and media products.',
     details: [
       'Designed and implemented highly scalable, event-driven APIs and workflows leveraging AWS services.',
       'Diginym — AI content agency creating broadcast-quality video content using proprietary workflows.',
-      'CLIPr — Video analysis and management platform using AI and machine learning.',
       'CardSeer — Trading card marketplace and discovery platform.',
       'The Room — Talent matching platform for the African Leadership Group.',
       'Forward Deployed Engineer — Delivered a Health Intelligence Center MVP for the Botswana Ministry of Health.',
@@ -30,10 +29,22 @@ const experiences = [
     tech: ['Node.js', 'Python', 'TypeScript', 'GraphQL', 'PostgreSQL', 'DynamoDB', 'Elasticsearch', 'AWS CDK', 'Lambda', 'Step Functions', 'SQS', 'SNS'],
   },
   {
+    role: 'Senior Software Engineer',
+    company: 'CLIPr',
+    url: 'https://www.clipr.ai/',
+    period: 'Jul 2021 – Present',
+    summary: 'Video analysis and management platform using AI and machine learning.',
+    details: [
+      'Built real-time video ingestion and ML inference APIs powering full-text video search across an indexed content library.',
+      'Serverless stack with Elasticsearch and DynamoDB.',
+    ],
+    tech: ['Node.js', 'TypeScript', 'AWS Lambda', 'Elasticsearch', 'DynamoDB'],
+  },
+  {
     role: 'Freelance Software Developer',
     company: 'Self-Employed',
     url: null,
-    period: '2012 – Present',
+    period: 'Apr 2012 – Present',
     summary: 'Independent projects in civic tech, investigative journalism, and document search.',
     details: [
       'htoprc.dev - visual htop configuration editor',
@@ -47,7 +58,7 @@ const experiences = [
     role: 'Senior Full Stack Developer',
     company: 'Scenset',
     url: 'https://scenset.com/',
-    period: '2021 – 2025',
+    period: 'Mar 2021 – Jun 2025',
     summary: 'Frontend and backend for a personalized travel platform.',
     details: [
       'Built internal and client-facing applications for personalized trip recommendations.',
@@ -60,7 +71,7 @@ const experiences = [
     role: 'Senior Backend Developer',
     company: 'optilyz',
     url: 'https://www.optilyz.com/',
-    period: '2020 – 2021',
+    period: 'Mar 2020 – Jul 2021',
     summary: "Internal and external APIs for Europe's leading direct mail automation software.",
     details: [
       "Designed and developed APIs for optilyz's cross-channel marketing platform.",
@@ -72,7 +83,7 @@ const experiences = [
     role: 'Senior Software Engineer',
     company: 'Eau de Web',
     url: 'https://www.eaudeweb.ro/',
-    period: '2019 – 2020',
+    period: 'Aug 2019 – Mar 2020',
     summary: 'WFP food delivery, satellite farm analytics, UN procurement scraper. Taught Django at university.',
     details: [
       'School Meals — Managed attendance, food delivery and consumption for World Food Programme projects.',
@@ -86,7 +97,7 @@ const experiences = [
     role: 'Senior Backend Developer',
     company: 'OWNZONES Entertainment',
     url: 'https://ownzones.com/',
-    period: '2017 – 2019',
+    period: 'Dec 2017 – Aug 2019',
     summary: 'Media delivery platform helping content owners leverage their libraries.',
     details: [
       'Designed and built the Discover Project — a media delivery solution for content owners.',
@@ -95,20 +106,46 @@ const experiences = [
     tech: ['Node.js', 'TypeScript', 'GraphQL', 'PostgreSQL', 'Elasticsearch', 'Redis', 'AWS', 'Kubernetes'],
   },
   {
-    role: 'Earlier Roles',
-    company: 'Endava, Coinzone, Pionix, Axway, Stefanini, Ascensys',
+    role: 'Lead Software Designer / Team Lead',
+    company: 'Endava',
     url: null,
-    period: '2004 – 2017',
-    summary: 'Lead Designer, Tech Lead, and Software Developer across paywall systems, crypto payments, automation, and e-commerce.',
-    details: [
-      'Endava (2015–2017) — Lead Designer and Tech Lead for paywall systems of multiple US publications.',
-      'Coinzone (2014–2015) — Bitcoin payment gateway and wallet development.',
-      'Pionix (2013–2014) — Mobile detection and mobile payment solutions.',
-      'Axway (2011–2012) — Automation testing framework for B2B enterprise solutions.',
-      'Stefanini/Techteam (2007–2011) — Ticketing system development and maintenance.',
-      'Ascensys (2004–2007) — Presentation and e-commerce website development.',
-    ],
-    tech: ['Node.js', 'Go', 'Angular', 'PHP', 'Perl', 'Java', 'MySQL', 'Oracle'],
+    period: 'Aug 2015 – Dec 2017',
+    summary: 'Led backend architecture for paywall systems of multiple US publications.',
+  },
+  {
+    role: 'Software Developer',
+    company: 'Coinzone',
+    url: null,
+    period: 'May 2014 – Aug 2015',
+    summary: 'Bitcoin payment gateway and wallet development.',
+  },
+  {
+    role: 'Software Developer',
+    company: 'Pionix Marketing Solutions',
+    url: null,
+    period: 'May 2013 – May 2014',
+    summary: 'Mobile detection and mobile payment solutions.',
+  },
+  {
+    role: 'Automation Engineer',
+    company: 'Axway',
+    url: null,
+    period: 'Apr 2011 – Apr 2012',
+    summary: 'Automation testing framework for B2B enterprise solutions.',
+  },
+  {
+    role: 'CA Consultant / Software Developer',
+    company: 'Stefanini Techteam',
+    url: null,
+    period: 'May 2007 – May 2011',
+    summary: 'Ticketing system development and maintenance.',
+  },
+  {
+    role: 'Software Developer',
+    company: 'Ascensys Soft',
+    url: null,
+    period: 'Jan 2004 – May 2007',
+    summary: 'Presentation and e-commerce website development.',
   },
 ];
 ---
@@ -166,6 +203,7 @@ const experiences = [
               </div>
               <span class="timeline-period">{exp.period}</span>
             </div>
+            {exp.summary && <p class="timeline-summary">{exp.summary}</p>}
           </div>
         )}
       </div>

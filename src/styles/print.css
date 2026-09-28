@@ -48,13 +48,7 @@
   }
 
   .hero-links {
-    margin-bottom: 0.5rem;
-  }
-
-  .hero-social {
-    border: none !important;
-    padding: 0 !important;
-    font-size: 9pt;
+    display: none !important;
   }
 
   .section {
@@ -83,20 +77,27 @@
     animation: none !important;
   }
 
-  .tech-tag {
-    font-size: 7pt;
-    padding: 1px 3px;
-    border: 1px solid var(--color-border);
-    background: none;
-    color: var(--color-text);
+  /* plain comma-separated text so ATS parsers read tags as a list */
+  .tech-tag,
+  .skill-tag {
+    font-family: var(--font-sans) !important;
+    font-size: 9pt !important;
+    padding: 0 !important;
+    border: none !important;
+    background: none !important;
+    color: var(--color-text) !important;
+    opacity: 1 !important;
   }
 
-  .skill-tag {
-    font-size: 8pt;
-    padding: 1px 4px;
-    border: 1px solid var(--color-border);
-    background: none;
-    color: var(--color-text);
+  .tech-tag:not(:last-child)::after,
+  .skill-tag:not(:last-child)::after {
+    content: ",";
+  }
+
+  .drawer-tech::before {
+    content: "Tech:";
+    font-size: 9pt;
+    font-weight: 600;
   }
 
   a {
