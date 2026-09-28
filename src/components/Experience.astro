@@ -6,7 +6,7 @@ const experiences = [
     type: 'Full-time',
     url: 'https://www.sandtech.com/',
     period: 'Jul 2021 – Present',
-    summary: 'Designed and owned cloud-native serverless backend architecture across 6 client products over 4 years, spanning media, talent, trading, veterinary, and government health.',
+    summary: 'Joined Synaflux, later acquired by Sand Technologies. Designed and owned cloud-native serverless backend architecture across 6 client products over 4 years, spanning media, talent, trading, veterinary, and government health.',
     details: [
       'Health Intelligence Center — As Forward Deployed Engineer, delivered the MVP on-site for the Botswana Ministry of Health in a team of two; built the cloud infrastructure (Pulumi) and Airflow + dbt data pipeline for a real-time health-reporting platform spanning 5 African countries.',
       'Diginym — Built a generative-AI video pipeline producing broadcast-quality talking-head output, orchestrated with Step Functions and S3.',
@@ -37,7 +37,7 @@ const experiences = [
     type: 'Part-time',
     url: 'https://www.clipr.ai/',
     period: 'Jul 2021 – Present',
-    summary: 'AI video analysis and management platform.',
+    summary: 'AI video analysis and management platform. Started at Synaflux; continued part-time after the Sand Technologies acquisition.',
     details: [
       'Built real-time video ingestion and ML inference APIs powering full-text video search across an indexed content library, on a serverless stack.',
     ],
@@ -51,9 +51,9 @@ const experiences = [
     period: 'Apr 2012 – Present',
     summary: 'Independent projects in civic tech, investigative journalism, and document search.',
     details: [
-      'Risc Seismic București — Public tool used by thousands of Bucharest residents to view seismic ratings for buildings.',
-      'Liquid Investigations — Secure collaboration server for investigative journalism teams, used across Europe.',
-      'Hoover — Document search and analysis tools for large document sets.',
+      '<a href="https://github.com/risc-seismic-bucuresti" target="_blank" rel="noopener noreferrer">Risc Seismic București</a> — Public tool used by thousands of Bucharest residents to view seismic ratings for buildings.',
+      '<a href="https://liquidinvestigations.github.io/" target="_blank" rel="noopener noreferrer">Liquid Investigations</a> — Secure collaboration server for investigative journalism teams, used across Europe.',
+      '<a href="https://github.com/liquidinvestigations/hoover-search" target="_blank" rel="noopener noreferrer">Hoover</a> — Document search and analysis tools for large document sets.',
     ],
     tech: ['Python', 'Django', 'Elasticsearch'],
   },
@@ -61,7 +61,7 @@ const experiences = [
     role: 'Senior Full Stack Developer',
     company: 'Scenset',
     type: 'Part-time',
-    url: 'https://scenset.com/',
+    url: null,
     period: 'Mar 2021 – Jun 2025',
     summary: 'Frontend and backend for a personalized travel platform.',
     details: [
@@ -101,7 +101,7 @@ const experiences = [
   {
     role: 'Senior Backend Developer',
     company: 'OWNZONES Entertainment',
-    url: 'https://ownzones.com/',
+    url: null,
     period: 'Dec 2017 – Aug 2019',
     summary: 'Media delivery platform helping content owners leverage their libraries.',
     details: [
@@ -139,11 +139,18 @@ const experiences = [
     summary: 'Automation testing framework for B2B enterprise solutions.',
   },
   {
-    role: 'Software Consultant / Software Developer',
+    role: 'Software Consultant',
     company: 'Stefanini Techteam',
     url: null,
-    period: 'May 2007 – May 2011',
-    summary: 'Ticketing system development and maintenance.',
+    period: 'Feb 2010 – May 2011',
+    summary: 'Development and maintenance of the company ticketing system.',
+  },
+  {
+    role: 'Software Developer',
+    company: 'TechTeam Akela',
+    url: null,
+    period: 'May 2007 – Feb 2010',
+    summary: 'Development and maintenance of the in-house ticketing system.',
   },
   {
     role: 'Software Developer',
@@ -177,7 +184,7 @@ const experiences = [
         {exp.details && (
           <ul class="exp-details">
             {exp.details.map(detail => (
-              <li>{detail}</li>
+              <li set:html={detail} />
             ))}
           </ul>
         )}
@@ -194,29 +201,6 @@ const experiences = [
 </section>
 
 <style>
-  .section {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: var(--space-2xl) var(--space-md);
-  }
-
-  .section-heading {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: var(--space-lg);
-    color: var(--color-text);
-    display: flex;
-    align-items: center;
-    gap: var(--space-md);
-  }
-
-  .section-heading::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: var(--color-border);
-  }
-
   .timeline {
     display: grid;
     gap: var(--space-lg);

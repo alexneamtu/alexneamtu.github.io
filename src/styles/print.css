@@ -73,7 +73,6 @@
     border: none !important;
     background: none !important;
     color: var(--color-text) !important;
-    opacity: 1 !important;
   }
 
   .tech-tag:not(:last-child)::after,

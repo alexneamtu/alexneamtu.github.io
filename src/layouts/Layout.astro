@@ -1,5 +1,7 @@
 ---
 import Nav from '../components/Nav.astro';
+import '@fontsource-variable/inter';
+import '@fontsource-variable/jetbrains-mono';
 import '../styles/global.css';
 import '../styles/print.css';
 
@@ -28,9 +30,9 @@ const person = {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Alex Neamtu — Senior Software Engineer, Bucharest. 20+ years of experience in backend and full-stack development." />
+    <meta name="description" content="Alex Neamtu — Senior Software Engineer in Bucharest, remote. 20+ years building backend, platform, and AI systems: serverless AWS, TypeScript, Node.js, Python, LLM-powered products." />
     <meta property="og:title" content={title} />
-    <meta property="og:description" content="Senior Software Engineer based in Bucharest with 20+ years of experience in backend and full-stack development." />
+    <meta property="og:description" content="Alex Neamtu — Senior Software Engineer in Bucharest, remote. 20+ years building backend, platform, and AI systems: serverless AWS, TypeScript, Node.js, Python, LLM-powered products." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://alexneamtu.github.io" />
     <meta property="og:image" content="https://alexneamtu.github.io/og.png" />
@@ -43,10 +45,8 @@ const person = {
         localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'));
     </script>
     <script type="application/ld+json" set:html={JSON.stringify(person)} />
+    <link rel="canonical" href="https://alexneamtu.github.io/" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   </head>
   <body>
     <Nav />

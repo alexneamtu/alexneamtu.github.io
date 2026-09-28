@@ -17,9 +17,6 @@ const year = new Date().getFullYear();
     max-width: var(--max-width);
     margin: 0 auto;
     padding: var(--space-xl) var(--space-md);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
 
   .footer-copy {
@@ -27,11 +24,4 @@ const year = new Date().getFullYear();
     color: var(--color-text-muted);
   }
 
-  @media (max-width: 640px) {
-    .footer-inner {
-      flex-direction: column;
-      gap: var(--space-md);
-      text-align: center;
-    }
-  }
 </style>
