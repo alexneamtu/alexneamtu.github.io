@@ -1,0 +1,115 @@
+---
+const projects = [
+  {
+    name: 'SendRec',
+    url: 'https://sendrec.eu',
+    role: 'Founder & Developer',
+    period: '2026 – Present',
+    summary: 'Open-source async video platform for European teams: browser screen and camera recording, AI transcription, team spaces with SSO, SAML, and SCIM. Self-hosted via Docker or EU-hosted. Live with 59 users and 86 videos processed.',
+  },
+  {
+    name: 'UpgradeYou',
+    url: 'https://upgradeyou.ro',
+    role: 'Founder & Developer',
+    period: '2026 – Present',
+    summary: 'AI career assessment: upload a CV and get a personalized report with rewrite suggestions from a multi-LLM pipeline (LiteLLM, Tavily enrichment). Python, FastAPI, TypeScript, Stripe.',
+  },
+  {
+    name: 'pairpilot.ai',
+    url: null,
+    role: 'Creator',
+    period: '',
+    summary: 'Multi-model agentic pair-programming CLI (Claude + OpenAI) with a writer/reviewer loop and repo-aware file, shell, and git tools.',
+  },
+  {
+    name: 'htoprc.dev',
+    url: 'https://htoprc.dev',
+    role: 'Creator',
+    period: '',
+    summary: 'Web app to browse, preview, and edit htop configurations. React 19, Cloudflare Workers, GraphQL, with a published npm package.',
+  },
+];
+---
+<section class="section" id="projects">
+  <h2 class="section-heading">Projects</h2>
+  <div class="project-list">
+    {projects.map(p => (
+      <div class="project">
+        <div class="project-header">
+          <h3 class="project-name">
+            {p.url ? <a href={p.url} target="_blank" rel="noopener noreferrer">{p.name}</a> : p.name}
+          </h3>
+          {p.period && <span class="project-period">{p.period}</span>}
+        </div>
+        <p class="project-role">{p.role}</p>
+        <p class="project-summary">{p.summary}</p>
+      </div>
+    ))}
+  </div>
+</section>
+
+<style>
+  .section {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--space-2xl) var(--space-md);
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: var(--space-lg);
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+  }
+
+  .section-heading::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--color-border);
+  }
+
+  .project-list {
+    display: grid;
+    gap: var(--space-lg);
+  }
+
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: var(--space-md);
+  }
+
+  .project-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .project-period {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+  }
+
+  .project-role {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+  }
+
+  .project-summary {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    margin-top: var(--space-xs);
+  }
+
+  .project {
+    break-inside: avoid;
+  }
+</style>

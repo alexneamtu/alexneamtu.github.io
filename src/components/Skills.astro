@@ -2,46 +2,30 @@
 const skillGroups = [
   {
     title: 'Languages',
-    skills: [
-      { name: 'TypeScript', level: 'primary' },
-      { name: 'JavaScript', level: 'primary' },
-      { name: 'PHP', level: 'strong' },
-      { name: 'Go', level: 'working' },
-      { name: 'Python', level: 'familiar' },
-      { name: 'Shell/Bash', level: 'working' },
-    ],
+    skills: ['TypeScript', 'JavaScript', 'Python', 'Go', 'PHP', 'SQL', 'Bash'],
   },
   {
-    title: 'Frontend',
-    skills: ['React', 'AngularJS', 'Vite', 'shadcn/ui', 'HTML', 'CSS'],
+    title: 'AI',
+    skills: ['Artificial Intelligence (AI)', 'LLM APIs (Claude, OpenAI, Gemini)', 'LiteLLM', 'Generative video pipelines', 'ML inference APIs', 'Claude Code', 'Codex'],
   },
   {
     title: 'Backend',
-    skills: ['Node.js', 'Koa', 'Fastify', 'GraphQL', 'REST APIs', 'Magento 2'],
+    skills: ['Node.js', 'GraphQL', 'REST APIs', 'Prisma', 'FastAPI', 'Django', 'Fastify'],
   },
   {
-    title: 'Databases',
-    skills: ['MongoDB', 'PostgreSQL', 'MySQL', 'DynamoDB', 'Elasticsearch', 'Redis'],
+    title: 'Cloud & Infrastructure',
+    skills: ['AWS (Lambda, Step Functions, ECS, SQS/SNS)', 'Infrastructure as code (IaC)', 'AWS CDK', 'Pulumi', 'GCP', 'Docker', 'Kubernetes', 'Cloudflare Workers'],
   },
   {
-    title: 'Cloud & DevOps',
-    skills: ['AWS', 'GCP', 'Docker', 'Kubernetes', 'Cloudflare Workers', 'Turborepo'],
+    title: 'Data',
+    skills: ['PostgreSQL', 'DynamoDB', 'Elasticsearch', 'MongoDB', 'Redis', 'Airflow', 'dbt'],
   },
   {
-    title: 'Testing',
-    skills: ['Jest'],
+    title: 'Frontend & Tooling',
+    skills: ['React', 'Vite', 'Turborepo', 'pnpm', 'Jest', 'Playwright'],
   },
 ];
 
-function levelOpacity(level: string): string {
-  switch (level) {
-    case 'primary': return '1';
-    case 'strong': return '0.85';
-    case 'working': return '0.65';
-    case 'familiar': return '0.5';
-    default: return '1';
-  }
-}
 ---
 <section class="section" id="skills">
   <h2 class="section-heading">Skills</h2>
@@ -50,19 +34,9 @@ function levelOpacity(level: string): string {
       <div class="skill-group">
         <h3 class="skill-group-title">{group.title}</h3>
         <div class="skill-tags">
-          {Array.isArray(group.skills) && group.skills.map(skill => {
-            const name = typeof skill === 'string' ? skill : skill.name;
-            const level = typeof skill === 'string' ? null : skill.level;
-            return (
-              <span
-                class="skill-tag"
-                style={level ? `opacity: ${levelOpacity(level)}` : ''}
-                title={level ? `Proficiency: ${level}` : ''}
-              >
-                {name}
-              </span>
-            );
-          })}
+          {group.skills.map(skill => (
+            <span class="skill-tag">{skill}</span>
+          ))}
         </div>
       </div>
     ))}

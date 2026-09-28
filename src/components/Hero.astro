@@ -2,15 +2,15 @@
 const socialLinks = [
   { label: 'GitHub', href: 'https://github.com/alexneamtu' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/alexneamtu/' },
-  { label: 'Twitter', href: 'https://twitter.com/neamtualexandru' },
+  { label: 'X', href: 'https://x.com/neamtualexandru' },
   { label: 'Email', href: 'mailto:alexneamtu@gmail.com' },
 ];
 ---
 <section class="hero" id="hero">
-  <p class="hero-tagline">.code .coffee .cocktails</p>
+  <p class="hero-tagline">Backend · Platform · AI · Founding Engineer</p>
   <h1 class="hero-name">Alex Neamtu</h1>
   <p class="hero-title">Senior Software Engineer</p>
-  <p class="hero-location">Bucharest, Romania</p>
+  <p class="hero-location">Bucharest, Romania · Remote only · EU citizen, no visa sponsorship needed</p>
   <div class="hero-links">
     {socialLinks.map(link => (
       <a href={link.href} class="hero-social" target="_blank" rel="noopener noreferrer" aria-label={link.label}>
@@ -22,7 +22,7 @@ const socialLinks = [
     <span>alexneamtu@gmail.com</span>
     <span>github.com/alexneamtu</span>
     <span>linkedin.com/in/alexneamtu</span>
-    <span>twitter.com/neamtualexandru</span>
+    <span>x.com/neamtualexandru</span>
   </div>
   <button class="hero-pdf" onclick="window.print()">
     ↓ Download Resume

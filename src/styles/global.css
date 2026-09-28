@@ -22,8 +22,8 @@ html[data-theme="light"] {
   --color-bg-secondary: #f4f4f5;
   --color-text: #18181b;
   --color-text-muted: #52525b;
-  --color-accent: #0891b2;
-  --color-accent-muted: rgba(8, 145, 178, 0.1);
+  --color-accent: #0e7490;
+  --color-accent-muted: rgba(14, 116, 144, 0.1);
   --color-border: #e4e4e7;
 }
 
@@ -63,4 +63,23 @@ a:hover {
 ::selection {
   background-color: var(--color-accent-muted);
   color: var(--color-accent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
 }

@@ -2,61 +2,65 @@
 const experiences = [
   {
     role: 'Senior Software Engineer',
-    company: 'Archbee',
-    url: 'https://www.archbee.com/',
-    period: 'Aug 2025 – Present',
-    summary: 'Infrastructure modernization and developer experience for a documentation platform.',
+    company: 'Sand Technologies',
+    type: 'Full-time',
+    url: 'https://www.sandtech.com/',
+    period: 'Jul 2021 – Present',
+    summary: 'Designed and owned cloud-native serverless backend architecture across 6 client products over 4 years, spanning media, talent, trading, veterinary, and government health.',
     details: [
-      'Migrated monorepo tooling from npm to pnpm and Turborepo.',
-      'Security hardening, Node.js upgrades, and bundle size optimization.',
-      'CI/CD and Docker build improvements.',
+      'Health Intelligence Center — As Forward Deployed Engineer, delivered the MVP on-site for the Botswana Ministry of Health in a team of two; built the cloud infrastructure (Pulumi) and Airflow + dbt data pipeline for a real-time health-reporting platform spanning 5 African countries.',
+      'Diginym — Built a generative-AI video pipeline producing broadcast-quality talking-head output, orchestrated with Step Functions and S3.',
+      'VetProcure — Architected an EU veterinary-procurement platform: GraphQL API (Yoga, Pothos, Prisma) with ECS workers that scrape manufacturer catalogs and automate webshop checkout via Playwright, on AWS CDK.',
+      'CardSeer — Architected real-time data sync and search APIs across multiple trading-card marketplaces, handling concurrent price updates at low latency.',
+      'The Room — Designed event-driven talent-matching workflows over SQS/SNS for the African Leadership Group.',
     ],
-    tech: ['Node.js', 'TypeScript', 'React', 'Turborepo', 'pnpm', 'Docker', 'AWS'],
+    tech: ['TypeScript', 'Python', 'AWS CDK', 'Step Functions', 'Pulumi'],
   },
   {
     role: 'Senior Software Engineer',
-    company: 'Sand Technologies',
-    url: 'https://www.sandtech.com/',
-    period: 'Jul 2021 – Present',
-    summary: 'Cloud-native serverless APIs and workflows on AWS for AI and media products.',
+    company: 'Archbee',
+    type: 'Part-time',
+    url: 'https://www.archbee.com/',
+    period: 'Aug 2025 – Present',
+    summary: 'Developer experience and infrastructure modernization for a documentation SaaS.',
     details: [
-      'Designed and implemented highly scalable, event-driven APIs and workflows leveraging AWS services.',
-      'Diginym — AI content agency creating broadcast-quality video content using proprietary workflows.',
-      'CardSeer — Trading card marketplace and discovery platform.',
-      'The Room — Talent matching platform for the African Leadership Group.',
-      'Forward Deployed Engineer — Delivered a Health Intelligence Center MVP for the Botswana Ministry of Health.',
+      'Migrated the monorepo from npm to pnpm + Turborepo, reducing CI build and local install times.',
+      'Reduced main JS bundle size through code splitting and dependency auditing.',
+      'Migrated all services to Node.js LTS and remediated outdated dependencies.',
+      'Standardized the Docker build pipeline across all services, eliminating environment-specific failures.',
     ],
-    tech: ['Node.js', 'Python', 'TypeScript', 'GraphQL', 'PostgreSQL', 'DynamoDB', 'Elasticsearch', 'AWS CDK', 'Lambda', 'Step Functions', 'SQS', 'SNS'],
+    tech: ['TypeScript', 'Node.js', 'Turborepo', 'Docker'],
   },
   {
     role: 'Senior Software Engineer',
     company: 'CLIPr',
+    type: 'Part-time',
     url: 'https://www.clipr.ai/',
     period: 'Jul 2021 – Present',
-    summary: 'Video analysis and management platform using AI and machine learning.',
+    summary: 'AI video analysis and management platform.',
     details: [
-      'Built real-time video ingestion and ML inference APIs powering full-text video search across an indexed content library.',
-      'Serverless stack with Elasticsearch and DynamoDB.',
+      'Built real-time video ingestion and ML inference APIs powering full-text video search across an indexed content library, on a serverless stack.',
     ],
-    tech: ['Node.js', 'TypeScript', 'AWS Lambda', 'Elasticsearch', 'DynamoDB'],
+    tech: ['Node.js', 'AWS Lambda', 'Elasticsearch', 'DynamoDB'],
   },
   {
-    role: 'Freelance Software Developer',
-    company: 'Self-Employed',
+    role: 'Open Source & Civic Tech',
+    company: 'Side projects',
+    type: null,
     url: null,
     period: 'Apr 2012 – Present',
     summary: 'Independent projects in civic tech, investigative journalism, and document search.',
     details: [
-      'htoprc.dev - visual htop configuration editor',
-      'Risc Seismic Bucuresti — Fast, free tool to check buildings with seismic risk in Bucharest.',
-      'Liquid Investigations — Secure collaboration server for investigative journalism projects.',
-      'Hoover — Toolset for searching in large collections of documents.',
+      'Risc Seismic București — Public tool used by thousands of Bucharest residents to view seismic ratings for buildings.',
+      'Liquid Investigations — Secure collaboration server for investigative journalism teams, used across Europe.',
+      'Hoover — Document search and analysis tools for large document sets.',
     ],
-    tech: ['Node.js', 'Python', 'Django', 'PHP', 'GraphQL', 'Elasticsearch', 'MongoDB', 'PostgreSQL', 'AWS', 'GCP'],
+    tech: ['Python', 'Django', 'Elasticsearch'],
   },
   {
     role: 'Senior Full Stack Developer',
     company: 'Scenset',
+    type: 'Part-time',
     url: 'https://scenset.com/',
     period: 'Mar 2021 – Jun 2025',
     summary: 'Frontend and backend for a personalized travel platform.',
@@ -65,11 +69,12 @@ const experiences = [
       'Full-stack development with React frontend and Node.js backend services.',
       'Infrastructure on GCP using Pulumi for infrastructure-as-code.',
     ],
-    tech: ['React', 'Node.js', 'Cloud Firestore', 'Algolia', 'PostgreSQL', 'GCP', 'Pulumi', 'Cloud Run'],
+    tech: ['React', 'Node.js', 'GCP', 'Pulumi'],
   },
   {
     role: 'Senior Backend Developer',
     company: 'optilyz',
+    type: 'Full-time',
     url: 'https://www.optilyz.com/',
     period: 'Mar 2020 – Jul 2021',
     summary: "Internal and external APIs for Europe's leading direct mail automation software.",
@@ -77,7 +82,7 @@ const experiences = [
       "Designed and developed APIs for optilyz's cross-channel marketing platform.",
       'Built tools to automate and personalize direct mail campaigns at scale.',
     ],
-    tech: ['Node.js', 'JavaScript', 'React', 'REST APIs', 'MongoDB', 'AWS'],
+    tech: ['Node.js', 'MongoDB', 'AWS'],
   },
   {
     role: 'Senior Software Engineer',
@@ -91,7 +96,7 @@ const experiences = [
       'Scratch — Scraper for United Nations and TED procurement notices.',
       'Held the Django Web Application course for senior year at the University of Bucharest.',
     ],
-    tech: ['Python', 'Vue.js', 'Django', 'Django REST Framework', 'PostgreSQL', 'Elasticsearch', 'Leaflet.js', 'PostGIS'],
+    tech: ['Python', 'Django', 'PostGIS'],
   },
   {
     role: 'Senior Backend Developer',
@@ -103,7 +108,7 @@ const experiences = [
       'Designed and built the Discover Project — a media delivery solution for content owners.',
       'Backend architecture with Node.js, TypeScript, and GraphQL on AWS with Kubernetes.',
     ],
-    tech: ['Node.js', 'TypeScript', 'GraphQL', 'PostgreSQL', 'Elasticsearch', 'Redis', 'AWS', 'Kubernetes'],
+    tech: ['TypeScript', 'GraphQL', 'Kubernetes'],
   },
   {
     role: 'Lead Software Designer / Team Lead',
@@ -134,7 +139,7 @@ const experiences = [
     summary: 'Automation testing framework for B2B enterprise solutions.',
   },
   {
-    role: 'CA Consultant / Software Developer',
+    role: 'Software Consultant / Software Developer',
     company: 'Stefanini Techteam',
     url: null,
     period: 'May 2007 – May 2011',
@@ -154,56 +159,33 @@ const experiences = [
   <div class="timeline">
     {experiences.map(exp => (
       <div class="timeline-item">
-        {exp.details ? (
-          <details class="drawer">
-            <summary class="drawer-summary">
-              <div class="timeline-header">
-                <div>
-                  <h3 class="timeline-role">{exp.role}</h3>
-                  <p class="timeline-company">
-                    {exp.url ? (
-                      <a href={exp.url} target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">{exp.company}</a>
-                    ) : (
-                      exp.company
-                    )}
-                  </p>
-                </div>
-                <span class="timeline-period">{exp.period}</span>
-              </div>
-              {exp.summary && <p class="timeline-summary">{exp.summary}</p>}
-              <span class="drawer-chevron" aria-hidden="true"></span>
-            </summary>
-            <div class="drawer-content">
-              <ul class="drawer-details">
-                {exp.details.map(detail => (
-                  <li>{detail}</li>
-                ))}
-              </ul>
-              {exp.tech && (
-                <div class="drawer-tech">
-                  {exp.tech.map(t => (
-                    <span class="tech-tag">{t}</span>
-                  ))}
-                </div>
-              )}
-            </div>
-          </details>
-        ) : (
+        <div class="timeline-header">
           <div>
-            <div class="timeline-header">
-              <div>
-                <h3 class="timeline-role">{exp.role}</h3>
-                <p class="timeline-company">
-                  {exp.url ? (
-                    <a href={exp.url} target="_blank" rel="noopener noreferrer">{exp.company}</a>
-                  ) : (
-                    exp.company
-                  )}
-                </p>
-              </div>
-              <span class="timeline-period">{exp.period}</span>
-            </div>
-            {exp.summary && <p class="timeline-summary">{exp.summary}</p>}
+            <h3 class="timeline-role">{exp.role}</h3>
+            <p class="timeline-company">
+              {exp.url ? (
+                <a href={exp.url} target="_blank" rel="noopener noreferrer">{exp.company}</a>
+              ) : (
+                exp.company
+              )}
+              {exp.type && <span class="timeline-type"> · {exp.type}</span>}
+            </p>
+          </div>
+          <span class="timeline-period">{exp.period}</span>
+        </div>
+        {exp.summary && <p class="timeline-summary">{exp.summary}</p>}
+        {exp.details && (
+          <ul class="exp-details">
+            {exp.details.map(detail => (
+              <li>{detail}</li>
+            ))}
+          </ul>
+        )}
+        {exp.tech && (
+          <div class="exp-tech">
+            {exp.tech.map(t => (
+              <span class="tech-tag">{t}</span>
+            ))}
           </div>
         )}
       </div>
@@ -270,6 +252,10 @@ const experiences = [
     color: var(--color-text);
   }
 
+  .timeline-type {
+    white-space: nowrap;
+  }
+
   .timeline-company {
     font-size: 0.875rem;
     color: var(--color-text-muted);
@@ -290,81 +276,14 @@ const experiences = [
     margin-top: var(--space-sm);
   }
 
-  /* Drawer styles */
-  .drawer {
-    cursor: pointer;
-  }
-
-  .drawer-summary {
-    list-style: none;
-    position: relative;
-  }
-
-  .drawer-summary::-webkit-details-marker {
-    display: none;
-  }
-
-  .drawer-summary::marker {
-    display: none;
-    content: '';
-  }
-
-  .drawer summary {
-    list-style-type: none;
-  }
-
-  .drawer-chevron {
-    display: block;
+  .exp-details {
     margin-top: var(--space-sm);
-    width: 16px;
-    height: 16px;
-    position: relative;
-  }
-
-  .drawer-chevron::before {
-    content: '';
-    position: absolute;
-    top: 4px;
-    left: 2px;
-    width: 8px;
-    height: 8px;
-    border-right: 2px solid var(--color-text-muted);
-    border-bottom: 2px solid var(--color-text-muted);
-    transform: rotate(45deg);
-    transition: transform 0.2s;
-  }
-
-  details[open] .drawer-chevron::before {
-    transform: rotate(-135deg);
-    top: 6px;
-  }
-
-  .drawer-content {
-    margin-top: var(--space-md);
-    padding-top: var(--space-md);
-    border-top: 1px solid var(--color-border);
-    animation: slideDown 0.2s ease-out;
-  }
-
-  @keyframes slideDown {
-    from {
-      opacity: 0;
-      transform: translateY(-4px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  .drawer-details {
     list-style: none;
     display: grid;
     gap: var(--space-sm);
-    margin-bottom: var(--space-md);
   }
 
-  .drawer-details li {
+  .exp-details li {
     font-size: 0.85rem;
     color: var(--color-text-muted);
     line-height: 1.6;
@@ -372,7 +291,7 @@ const experiences = [
     position: relative;
   }
 
-  .drawer-details li::before {
+  .exp-details li::before {
     content: '›';
     position: absolute;
     left: 0;
@@ -380,7 +299,8 @@ const experiences = [
     font-weight: 700;
   }
 
-  .drawer-tech {
+  .exp-tech {
+    margin-top: var(--space-md);
     display: flex;
     flex-wrap: wrap;
     gap: var(--space-xs);

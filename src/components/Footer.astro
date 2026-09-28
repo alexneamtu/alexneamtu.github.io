@@ -1,19 +1,8 @@
 ---
-const links = [
-  { label: 'GitHub', href: 'https://github.com/alexneamtu' },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/alexneamtu/' },
-  { label: 'Twitter', href: 'https://twitter.com/neamtualexandru' },
-  { label: 'Email', href: 'mailto:alexneamtu@gmail.com' },
-];
 const year = new Date().getFullYear();
 ---
 <footer class="footer">
   <div class="footer-inner">
-    <div class="footer-links">
-      {links.map(link => (
-        <a href={link.href} target="_blank" rel="noopener noreferrer">{link.label}</a>
-      ))}
-    </div>
     <p class="footer-copy">&copy; {year} Alex Neamtu</p>
   </div>
 </footer>
@@ -31,21 +20,6 @@ const year = new Date().getFullYear();
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-
-  .footer-links {
-    display: flex;
-    gap: var(--space-md);
-  }
-
-  .footer-links a {
-    color: var(--color-text-muted);
-    font-size: 0.875rem;
-  }
-
-  .footer-links a:hover {
-    color: var(--color-accent);
-    opacity: 1;
   }
 
   .footer-copy {

@@ -16,7 +16,6 @@
 
   .nav,
   .hero-pdf,
-  .nav-download,
   .footer {
     display: none !important;
   }
@@ -65,18 +64,6 @@
     break-inside: avoid;
   }
 
-  .drawer-chevron {
-    display: none !important;
-  }
-
-  .drawer {
-    cursor: default;
-  }
-
-  .drawer-content {
-    animation: none !important;
-  }
-
   /* plain comma-separated text so ATS parsers read tags as a list */
   .tech-tag,
   .skill-tag {
@@ -94,7 +81,7 @@
     content: ",";
   }
 
-  .drawer-tech::before {
+  .exp-tech::before {
     content: "Tech:";
     font-size: 9pt;
     font-weight: 600;
