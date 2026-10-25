@@ -3,9 +3,10 @@ const projects = [
   {
     name: 'SendRec',
     url: 'https://sendrec.eu',
+    repository: 'https://github.com/sendrec/sendrec',
     role: 'Neamtu Alexandru PFA',
     period: 'Feb 2026 – Present',
-    summary: 'Building an open-source alternative to Loom for teams that need their data to stay in the EU. SendRec lets you record your screen, share videos with your team, and keep full control of your data. GDPR native, self-hostable, no US cloud dependency. Built with Go, React, PostgreSQL. Hosted on European infrastructure (Hetzner, Germany). Licensed under AGPLv3.',
+    summary: 'Open-source, EU-hosted alternative to Loom. Record and share videos using the hosted service or self-host with Docker.',
   },
   {
     name: 'Coinzone Wallet',
@@ -50,6 +51,7 @@ const projects = [
           {p.period && <span class="project-period">{p.period}</span>}
         </div>
         <p class="project-summary">{p.summary}</p>
+        {p.repository && <p class="project-summary"><a href={p.repository} target="_blank" rel="noopener noreferrer">Repository</a></p>}
       </div>
     ))}
   </div>
