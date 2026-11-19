@@ -92,4 +92,73 @@
   a[href^="http"]::after {
     content: none;
   }
+
+  /* ATS: single column, so each date reads right after its role instead of floating away */
+  .timeline-header,
+  .project-header,
+  .edu-header,
+  .timeline-item.compact .timeline-header > div,
+  .skill-group {
+    display: block !important;
+  }
+
+  .timeline-item.compact .timeline-role,
+  .timeline-item.compact .timeline-company,
+  .project-name {
+    display: inline;
+  }
+
+  .timeline-item.compact .timeline-company::before {
+    content: " · " !important;
+  }
+
+  .timeline-period,
+  .project-period,
+  .edu-period {
+    display: block;
+    font-family: var(--font-sans) !important;
+  }
+
+  .timeline-item {
+    padding-left: 0 !important;
+    border-left: none !important;
+  }
+
+  .timeline-item::before {
+    content: none !important;
+  }
+
+  /* ATS: real bullet glyph inline with its text, not an absolutely positioned marker */
+  .exp-details li {
+    padding-left: 1em !important;
+    text-indent: -0.7em;
+  }
+
+  .exp-details li::before {
+    content: "• " !important;
+    position: static !important;
+    color: var(--color-text) !important;
+  }
+
+  /* ATS: letter-spacing and uppercase split words ("LAN G UAG ES") */
+  .skill-group-title {
+    display: inline;
+    text-transform: none !important;
+    letter-spacing: normal !important;
+    font-size: 11pt !important;
+    color: var(--color-text) !important;
+  }
+
+  .skill-group-title::after {
+    content: ":";
+  }
+
+  .skill-list {
+    display: inline;
+    margin-left: 0.3em;
+  }
+
+  .project-summary a[href]::after {
+    content: " " attr(href);
+  }
 }
