@@ -205,10 +205,10 @@ const experiences = [
   },
 ];
 
-// Active roles first, then newest start date first.
+// Active roles first in source order, then ended roles by newest start date.
 const isActive = (e) => Number(e.period.endsWith('Present'));
 const start = (e) => Date.parse('1 ' + e.period.split(' – ')[0]);
-experiences.sort((a, b) => isActive(b) - isActive(a) || start(b) - start(a));
+experiences.sort((a, b) => isActive(b) - isActive(a) || (isActive(a) ? 0 : start(b) - start(a)));
 ---
 <section class="section" id="experience">
   <h2 class="section-heading">Experience</h2>
